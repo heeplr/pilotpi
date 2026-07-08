@@ -837,7 +837,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U1-4,Q1,R1-28,D1-4,C1-10,L1,Y1-2,#PWR5-48,J2-6,#FLG1-4",
+    "used_designators": "SW1,U1-6,Q1,R1-31,D1-5,C1-12,L1,Y1-2,#PWR5-63,J2-6,#FLG1-4",
     "variants": []
   },
   "sheets": [
@@ -860,6 +860,14 @@
     [
       "18eb3126-e107-4caf-b310-e2fdb46d6a7b",
       "MAG"
+    ],
+    [
+      "1dd2f51c-ff78-497f-a3d0-0d1fd7f5221b",
+      "Pressure"
+    ],
+    [
+      "c837d93a-56ad-4bfe-a724-29292264d71b",
+      "RC inverter"
     ]
   ],
   "text_variables": {},

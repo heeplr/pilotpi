@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ICM-42605:PQFN50P300X250X97-14N"
+			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 				(at -22.098 -18.796 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -301,6 +301,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "Part" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_fp_filters" "*PQFN50P300X250X97-14N*"
@@ -862,10 +873,6 @@
 	(no_connect
 		(at 180.34 97.79)
 		(uuid "3ff1e0e9-46ef-4694-a84f-1caa4dd7f495")
-	)
-	(no_connect
-		(at 182.88 118.11)
-		(uuid "7e6d27ff-6519-4c43-bfa8-f2329c33213a")
 	)
 	(no_connect
 		(at 180.34 92.71)

@@ -3099,7 +3099,7 @@
 		(uuid "39407d92-175f-451c-85ea-f5fc131138f3")
 	)
 	(label "RXA"
-		(at 271.78 105.41 270)
+		(at 289.56 105.41 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3169,7 +3169,7 @@
 		(uuid "960f7794-f462-4acf-ad76-0aee26c7a087")
 	)
 	(label "RXB"
-		(at 327.66 105.41 270)
+		(at 345.44 105.41 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3199,7 +3199,7 @@
 		(uuid "b3188e95-b665-4bfc-9f1b-cb51814094c7")
 	)
 	(label "TXB"
-		(at 345.44 105.41 270)
+		(at 327.66 105.41 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3239,7 +3239,7 @@
 		(uuid "c747d395-1f11-438a-b19f-c785c529b2fa")
 	)
 	(label "TXA"
-		(at 289.56 105.41 270)
+		(at 271.78 105.41 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 		(dnp no)
 		(uuid "36e5d412-3603-4da9-8d1d-04340e3354dc")
 		(property "Reference" "D3"
-			(at 321.818 103.124 0)
+			(at 321.818 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3758,8 +3758,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RXB_GREEN"
-			(at 324.358 103.124 0)
+		(property "Value" "TXB_RED"
+			(at 324.358 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5170,7 +5170,7 @@
 		(dnp no)
 		(uuid "9b45f55e-309e-4977-b308-b8415a2f7b7e")
 		(property "Reference" "D1"
-			(at 265.938 103.124 0)
+			(at 265.938 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5180,8 +5180,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RXA_GREEN"
-			(at 268.478 103.124 0)
+		(property "Value" "TXA_RED"
+			(at 268.478 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5645,7 +5645,7 @@
 		(dnp no)
 		(uuid "bdc76885-284e-455a-8cfc-f0f8c1689405")
 		(property "Reference" "D4"
-			(at 349.758 102.87 0)
+			(at 349.758 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5655,8 +5655,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB_RED"
-			(at 352.298 102.87 0)
+		(property "Value" "RXB_GREEN"
+			(at 352.298 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6157,7 +6157,7 @@
 		(dnp no)
 		(uuid "d2f12d84-7d8d-48b0-9743-ec0a59ab97e9")
 		(property "Reference" "D2"
-			(at 294.132 103.378 0)
+			(at 294.132 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6167,8 +6167,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXA_RED"
-			(at 296.672 103.378 0)
+		(property "Value" "RXA_GREEN"
+			(at 296.672 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

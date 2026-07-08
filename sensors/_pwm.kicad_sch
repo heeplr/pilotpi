@@ -2500,7 +2500,7 @@
 		(uuid "7fcc373f-9398-4cb3-bbce-74f0b2a128c1")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 180.34 77.47 0)
 		(effects
 			(font

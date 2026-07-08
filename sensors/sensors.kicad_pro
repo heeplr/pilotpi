@@ -220,7 +220,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -836,7 +837,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U1,Q1,R1-11,D1-4,C1-6,L1,Y1,#PWR5-29,J2-6,#FLG1-4",
+    "used_designators": "U1-3,Q1,R1-28,D1-4,C1-8,L1,Y1-2,#PWR5-42,J2-6,#FLG1-4",
     "variants": []
   },
   "sheets": [
@@ -847,6 +848,14 @@
     [
       "243469ce-cfff-4f38-a791-94cacfa4b28b",
       "UART"
+    ],
+    [
+      "dc29d198-2b22-421b-ae78-ddea592bdad9",
+      "PWM"
+    ],
+    [
+      "ea3a0320-ec24-4764-ac1b-6ef5bba4948a",
+      "IMU"
     ]
   ],
   "text_variables": {},

@@ -837,7 +837,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U1-3,Q1,R1-28,D1-4,C1-8,L1,Y1-2,#PWR5-42,J2-6,#FLG1-4",
+    "used_designators": "U1-4,Q1,R1-28,D1-4,C1-10,L1,Y1-2,#PWR5-48,J2-6,#FLG1-4",
     "variants": []
   },
   "sheets": [
@@ -856,6 +856,10 @@
     [
       "ea3a0320-ec24-4764-ac1b-6ef5bba4948a",
       "IMU"
+    ],
+    [
+      "18eb3126-e107-4caf-b310-e2fdb46d6a7b",
+      "MAG"
     ]
   ],
   "text_variables": {},

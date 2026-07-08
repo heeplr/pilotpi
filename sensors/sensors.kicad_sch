@@ -2872,6 +2872,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 220.98) (xy 92.71 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c802e9-5c48-4c48-bb0b-349dc73cf284")
+	)
+	(wire
+		(pts
 			(xy 92.71 128.27) (xy 90.17 128.27)
 		)
 		(stroke
@@ -3392,6 +3402,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 215.9) (xy 92.71 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f078e15e-1d41-4034-b158-48a2c484e959")
+	)
+	(wire
+		(pts
 			(xy 90.17 153.67) (xy 92.71 153.67)
 		)
 		(stroke
@@ -3600,6 +3620,16 @@
 		)
 		(uuid "39aa2837-3c81-4fef-a65a-6ce384a2ad2c")
 	)
+	(label "GPIO2{slash}SDA1"
+		(at 92.71 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cedb639-546c-4605-91cb-5f726f4f8a73")
+	)
 	(label "GPIO8{slash}SPI0.CE0"
 		(at 92.71 191.77 0)
 		(effects
@@ -3669,6 +3699,16 @@
 			(justify left bottom)
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
+	)
+	(label "GPIO3{slash}SCL1"
+		(at 92.71 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d55d11e-9c44-4e42-86d5-f22212db4be0")
 	)
 	(label "GPIO26"
 		(at 31.75 82.55 0)
@@ -4858,6 +4898,72 @@
 		)
 	)
 	(sheet
+		(at 62.23 209.55)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18eb3126-e107-4caf-b310-e2fdb46d6a7b")
+		(property "Sheetname" "MAG"
+			(at 62.23 208.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "_mag.kicad_sch"
+			(at 62.23 227.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 90.17 215.9 0)
+			(uuid "276e71c6-84ef-4039-9473-487adccd219f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 90.17 220.98 0)
+			(uuid "4b4a7080-2945-4310-b60f-bdd71010bacc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 62.23 147.32)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
@@ -5011,7 +5117,7 @@
 				(justify right)
 			)
 		)
-		(pin "SDA" input
+		(pin "SDA" bidirectional
 			(at 90.17 128.27 0)
 			(uuid "41d803bb-a650-428e-bb1b-94eb2f2e9fbb")
 			(effects

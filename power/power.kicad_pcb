@@ -3084,6 +3084,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a09f5f9a-14c9-4e3f-b13f-14edcaea84ee")
 		(transform
@@ -4280,6 +4281,7 @@
 		)
 	)
 	(footprint "pilotpi:PinHeader_3x16_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cd048a43-3c3a-463a-b5f9-445699ca60f9")
 		(transform

@@ -860,7 +860,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "BZ1,SW1-2,U1-7,Q1,R1-36,D1-6,C1-12,L1,Y1-2,#PWR5-74,J2-8,#FLG1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -908,7 +908,7 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 1
+      "version": 0
     },
     "tuning_profiles_impedance_geometric": []
   }

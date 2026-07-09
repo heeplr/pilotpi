@@ -1,7 +1,7 @@
 (footprint "PinHeader_3x16_P2.54mm_Horizontal"
-	(version 20260623)
+	(version 20251012)
 	(generator "pcbnew")
-	(generator_version "10.99")
+	(generator_version "10.00")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 2x16, 2.54mm pitch, 6mm pin length, double rows")
 	(tags "Through hole angled pin header THT 2x16 2.54mm double row")

@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A3")
+	(paper "A5")
 	(title_block
 		(date "15 nov 2012")
 	)
@@ -6213,7 +6213,7 @@
 		(property "Reference" "U7"
 			(at 0 -2.55 0)
 			(layer "F.SilkS")
-			(uuid "a376395c-ef04-4965-964a-dde8a4317ea9")
+			(uuid "a5175057-0267-4f32-8b99-79a88bff3cbe")
 			(effects
 				(font
 					(size 1 1)
@@ -6224,7 +6224,7 @@
 		(property "Value" "ADS1115IDGS"
 			(at 0 2.55 0)
 			(layer "F.Fab")
-			(uuid "9d35e3ca-3dbb-4429-b4b0-b1e1a9112cff")
+			(uuid "3f78c377-50b4-4d0f-b655-75f3aa34d8b1")
 			(effects
 				(font
 					(size 1 1)
@@ -6237,7 +6237,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ab0e263-589b-4470-b6cc-d870009cc148")
+			(uuid "d4aeef3c-6db5-417f-81a4-014678a955e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2a6921a-27ed-4d31-a492-4bb44b286c4d")
+			(uuid "88507601-b3a0-42c6-86a7-079abc4d1431")
 			(effects
 				(font
 					(size 1.27 1.27)

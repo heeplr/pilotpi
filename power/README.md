@@ -2,9 +2,10 @@
 
 ## Schematic
 
-![Power Schematic 1](./exports/power.svg)
-![Power Schematic 1](./exports/power-XL4015.svg)
+![power](./preview/power.svg)
+![XL4015](./preview/power-XL4015.svg)
 
 ## PCB Layout
 
-![Power PCB](./exports/power-pcb.svg)
+![front-pcb](./preview/power-front-pcb.svg)
+![back-pcb](./preview/power-back-pcb.svg)

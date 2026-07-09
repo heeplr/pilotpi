@@ -3,6 +3,7 @@
 ## Schematic
 
 ![sensors](./preview/sensors.svg)
+![Vref](./preview/sensors-Vref.svg)
 ![UART](./preview/sensors-UART.svg)
 ![RC inverter](./preview/sensors-RC%20inverter.svg)
 ![Pressure](./preview/sensors-Pressure.svg)

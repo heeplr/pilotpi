@@ -2,8 +2,13 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9dbc0605-eb63-461c-9bd5-d7dfc5819055")
+	(uuid "f235e5a2-ec8b-4c0a-a6a7-7eb564c0bcd4")
 	(paper "A4")
+	(title_block
+		(title "PilotPi: Power")
+		(date "15 nov 2012")
+		(rev "4")
+	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names
@@ -1008,161 +1013,161 @@
 		)
 	)
 	(junction
-		(at 137.16 83.82)
+		(at 153.67 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad0d9290-d125-4d87-b90b-70f9192a8946")
+		(uuid "5db16ce6-b846-43e5-b021-9761ee577b2a")
 	)
 	(junction
-		(at 137.16 99.06)
+		(at 153.67 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf7aba82-f756-4aef-ac07-02dc7be038b1")
+		(uuid "b25b39b9-6d89-4c1a-beab-2e7d6f7ec5b6")
 	)
 	(wire
 		(pts
-			(xy 137.16 93.98) (xy 137.16 99.06)
+			(xy 153.67 77.47) (xy 153.67 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b568157-1ad5-4c29-b04a-46b138690b90")
+		(uuid "059cba14-ea08-46de-8a40-ed20d9c70706")
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 130.81 99.06)
+			(xy 147.32 88.9) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2467e10c-b66b-4680-a1e7-4f7814c16679")
+		(uuid "2e6f9ab9-93c5-480f-849e-45073681639e")
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 137.16 93.98)
+			(xy 147.32 77.47) (xy 153.67 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32dcb034-f8e7-4fc2-9c95-6fc08344b5ec")
+		(uuid "4f1a616f-92c8-4bad-a054-f9adffc24bfd")
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 83.82)
+			(xy 153.67 82.55) (xy 153.67 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "365bf31f-29b5-456e-9181-94f0357fc10d")
+		(uuid "5065a960-0ee6-4c79-bd21-7539fe1171b8")
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 101.6)
+			(xy 147.32 92.71) (xy 153.67 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cbdbdbb-cc16-4caa-bedc-b2cf2dce3088")
+		(uuid "5db09a59-31ad-400f-bd22-366a905e15fb")
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 114.3)
+			(xy 156.21 87.63) (xy 153.67 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5987bbba-ecc1-46b2-beb0-861dace81235")
+		(uuid "6144e697-d86f-40f7-b6cf-95451a5338e5")
 	)
 	(wire
 		(pts
-			(xy 130.81 99.06) (xy 137.16 99.06)
+			(xy 142.24 100.33) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b6be283-63f1-4521-a8d6-5aec855c7eaa")
+		(uuid "65d9629a-1d90-4b17-b1df-40e0c6d4f3de")
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 129.54 106.68)
+			(xy 156.21 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "837fed59-0aee-4186-800f-dc0c060c705b")
+		(uuid "8187bb34-9de8-45ce-8606-b1d2f8bb961c")
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 137.16 81.28)
+			(xy 153.67 87.63) (xy 153.67 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9af8d7ef-14d9-4f6b-8c33-ccd5dbb75a2f")
+		(uuid "85eb4c8f-742d-48c0-a9d0-136810312938")
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 137.16 88.9)
+			(xy 147.32 81.28) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3e54ab5-bebf-4c20-8c0a-03555adf738c")
+		(uuid "9b4adbfd-ad5f-4d61-8dca-015155850fd0")
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 137.16 83.82)
+			(xy 124.46 100.33) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6b3fdb4-d5b6-42b7-96eb-63841fe856fa")
+		(uuid "b3986d66-9c21-4065-b094-1c44e156dafa")
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 118.11 106.68)
+			(xy 153.67 105.41) (xy 153.67 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed8c6128-2b15-4ab3-929a-c83161a9a9b6")
+		(uuid "b8019c70-717b-44ed-a7e4-f089e097b271")
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 130.81 83.82)
+			(xy 153.67 92.71) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3f4b097-ec54-4082-8e60-2dada721dcf7")
+		(uuid "e777cb17-e75b-40e5-9a48-2117b5d94dc9")
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 107.95 106.68 180)
+		(at 124.46 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4307d4d4-72bd-4f17-bd5c-396183f96046")
+		(uuid "c15777eb-d207-42a3-91df-042f210f5b7e")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 121.92 106.68 270)
+		(lib_id "power:GND")
+		(at 153.67 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1170,9 +1175,84 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "184cac72-450c-43aa-95d9-3b73eec5adff")
-		(property "Reference" "R36"
-			(at 121.92 104.394 90)
+		(uuid "25b3ffca-03ce-4f02-9776-90a2cc92d1b0")
+		(property "Reference" "#PWR074"
+			(at 153.67 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.7843 112.2744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69421c65-fe6d-4cd5-aae2-91433419286d")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fff686e-ded7-4e1a-9f8c-8bd77145ef24")
+		(property "Reference" "R6"
+			(at 138.43 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1182,7 +1262,7 @@
 			)
 		)
 		(property "Value" "1KΩ (1001) ±1%"
-			(at 121.92 109.22 90)
+			(at 138.43 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1192,7 +1272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 104.902 90)
+			(at 138.43 98.552 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1203,7 +1283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 106.68 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1294,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 106.68 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +1305,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 121.92 106.68 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1236,23 +1316,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4eeba69-a6d8-4b43-ab85-f140b0ff5323")
+			(uuid "dc1a8403-7af2-43a3-99fb-9f07286ab8ac")
 		)
 		(pin "1"
-			(uuid "8880d734-5e61-4cb1-85ff-4ea032afc0ad")
+			(uuid "5f255b46-5611-4412-a358-1dc0069b2ad4")
 		)
 		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
-					(reference "R36")
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8050")
-		(at 134.62 106.68 0)
+		(lib_id "Device:Buzzer")
+		(at 158.75 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1261,9 +1341,205 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3051a6d2-fd91-491a-bef4-ece90d8c98c4")
-		(property "Reference" "Q1"
-			(at 139.7 105.4099 0)
+		(uuid "b2af650d-b66b-4ee0-82f6-163cb4247ea1")
+		(property "Reference" "BZ1"
+			(at 162.56 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 162.56 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
+			(at 158.115 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.115 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "HC9042-42Ω"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e19b5325-542d-40cc-af48-195f2e0d1466")
+		)
+		(pin "2"
+			(uuid "9d7d7dde-3d5f-4cc0-baee-2789ae74b8de")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 147.32 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba2e96c0-688f-42ca-992b-d62d35db96b9")
+		(property "Reference" "D3"
+			(at 141.732 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 144.272 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.875 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "005e7b8c-f8a2-470c-9778-56f3502675e8")
+		)
+		(pin "2"
+			(uuid "4aa3923a-917c-4aaa-9a1d-3ae04743206d")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:SS8050")
+		(at 151.13 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf418e68-bf7e-4fc1-9c9f-a4385d50f633")
+		(property "Reference" "Q2"
+			(at 156.21 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1274,7 +1550,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 139.7 107.9499 0)
+			(at 156.21 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1285,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 139.7 114.046 0)
+			(at 156.21 107.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1298,7 +1574,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 139.7 111.506 0)
+			(at 156.21 105.156 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,7 +1586,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 168.656 108.966 0)
+			(at 185.166 102.616 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1597,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 134.62 106.68 0)
+			(at 151.13 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,7 +1608,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 134.62 106.68 0)
+			(at 151.13 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1343,18 +1619,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b672f1e-bb6b-4d97-9d06-119e8c3f0204")
+			(uuid "985a4c3c-2780-4b62-a3cf-c01ada8398fa")
 		)
 		(pin "1"
-			(uuid "29e3eb29-da01-43cf-a831-bb12a2245453")
+			(uuid "34c3b2ef-2e00-405b-abf9-705d07a31f8f")
 		)
 		(pin "3"
-			(uuid "6b8885be-7e5c-4e77-b130-41c2f4480c0a")
+			(uuid "392b31d6-ce77-4249-8478-4b4485c20c58")
 		)
 		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
-					(reference "Q1")
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1638,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 137.16 81.28 0)
+		(at 153.67 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1370,9 +1646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3512f6a4-ac4e-4807-9a45-f3d2107047f5")
+		(uuid "f31b8e86-2f1d-47fb-a842-d810c3bca849")
 		(property "Reference" "#PWR073"
-			(at 137.16 85.09 0)
+			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1383,7 +1659,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.5283 76.9556 0)
+			(at 154.0383 70.6056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1393,7 +1669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 81.28 0)
+			(at 153.67 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1403,7 +1679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 81.28 0)
+			(at 153.67 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1413,7 +1689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 137.16 81.28 0)
+			(at 153.67 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1424,283 +1700,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "db64004d-b8f4-41f1-b11b-a7179a0465de")
+			(uuid "bf972764-6b88-49e2-84a9-cd3ee396f132")
 		)
 		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b02ca1db-6a65-4c53-8201-c0e912e6899a"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 130.81 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71b85a9e-3a14-4784-b3a8-2a4e95abecf5")
-		(property "Reference" "D6"
-			(at 125.222 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 127.762 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 126.365 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 130.81 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 130.81 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 130.81 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9600d32-59cf-486f-b19b-a4554580f6b3")
-		)
-		(pin "2"
-			(uuid "3fecd8a8-f801-4a14-a603-e5b9678d61cd")
-		)
-		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "838d336e-c6c0-4f5f-addb-859538d8ab99")
-		(property "Reference" "#PWR074"
-			(at 137.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.2743 118.6244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b04768c4-bbf8-49f9-b178-e414ae467a30")
-		)
-		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 142.24 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb1757f9-d9a2-4835-95f4-23569eba64af")
-		(property "Reference" "BZ1"
-			(at 146.05 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 146.05 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
-			(at 141.605 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 141.605 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 142.24 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "HC9042-42Ω"
-			(at 142.24 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "647787d4-f85a-4762-beac-f30d8649b83f")
-		)
-		(pin "2"
-			(uuid "c467f096-7629-4757-8c6c-441c59537aea")
-		)
-		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0901ed41-f9cb-4c3e-9db3-ca4378b23442"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)

@@ -543,28 +543,6 @@
 					)
 				)
 			)
-			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-				(at 0 -12.7 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-				(at 0 -15.24 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
@@ -649,6 +627,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -704,9 +694,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 5.08 270)
 					(length 1.27)
-					(name "G"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -742,8 +732,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(hide yes)
-					(name "G"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2960,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 121.92) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd646b97-a6a3-4c2b-91ab-111a534bdf81")
+	)
+	(wire
+		(pts
 			(xy 128.27 134.62) (xy 128.27 156.21)
 		)
 		(stroke
@@ -4250,6 +4249,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c606f2c-5deb-46cf-a495-b825cacbcbb6")
+		(property "Reference" "#PWR063"
+			(at 128.27 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.1557 117.5956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5f754ad-f89f-4432-b29b-a595c65bf92b")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 337.82 81.28 0)
 		(unit 1)
@@ -5366,7 +5440,7 @@
 		(fields_autoplaced yes)
 		(uuid "a83298a4-de6c-4986-a8fe-bfe94cd365ef")
 		(property "Reference" "Y1"
-			(at 128.27 120.65 0)
+			(at 137.3921 123.2934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5376,7 +5450,7 @@
 			)
 		)
 		(property "Value" "14.7456MHz"
-			(at 128.27 123.19 0)
+			(at 137.3921 125.7177 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

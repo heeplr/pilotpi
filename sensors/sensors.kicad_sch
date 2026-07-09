@@ -3081,6 +3081,10 @@
 		(uuid "8c0a4f44-ddaf-4de1-905e-bd6922705b82")
 	)
 	(no_connect
+		(at 73.66 74.93)
+		(uuid "92f08225-8692-4cc9-88f4-f679f9007a34")
+	)
+	(no_connect
 		(at 60.96 82.55)
 		(uuid "a3741034-3501-4417-a699-a17ebab51c9e")
 	)
@@ -4178,16 +4182,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 189.23) (xy 297.18 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7480942-82b4-4758-8498-79565ea2ccb3")
-	)
-	(wire
-		(pts
 			(xy 54.61 214.63) (xy 54.61 212.09)
 		)
 		(stroke
@@ -4865,16 +4859,6 @@
 			(justify left bottom)
 		)
 		(uuid "8fb0631c-564a-4f96-b39b-2f827bb204a3")
-	)
-	(label "GPIO12{slash}PWM0"
-		(at 297.18 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92ffb493-9739-4c83-87a1-e3869e842c38")
 	)
 	(label "GPIO17"
 		(at 31.75 49.53 0)
@@ -6619,62 +6603,6 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 266.7 180.34)
-		(size 27.94 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "0901ed41-f9cb-4c3e-9db3-ca4378b23442")
-		(property "Sheetname" "Buzzer"
-			(at 266.7 179.6284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "_buzzer.kicad_sch"
-			(at 266.7 198.7046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PWM" input
-			(at 294.64 189.23 0)
-			(uuid "2aa44ba9-7d85-4141-b81b-0ffa81e5df8b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "sensors"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "10")
 				)
 			)
 		)

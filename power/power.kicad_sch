@@ -5067,7 +5067,7 @@
 	)
 	(text "PWM Connector"
 		(exclude_from_sim no)
-		(at 356.0465 24.384 0)
+		(at 356.235 24.13 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5079,7 +5079,7 @@
 	)
 	(text "Connected to battery"
 		(exclude_from_sim no)
-		(at 145.288 128.524 0)
+		(at 145.415 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5090,7 @@
 	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
-		(at 301.498 258.572 0)
+		(at 301.625 258.445 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,7 +5101,7 @@
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
-		(at 293.624 112.014 0)
+		(at 293.37 111.76 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5113,7 +5113,7 @@
 	)
 	(text "Connector for unused RPi pins"
 		(exclude_from_sim no)
-		(at 189.992 24.13 0)
+		(at 189.865 24.13 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5137,7 +5137,7 @@
 	)
 	(text "RPi HAT connector"
 		(exclude_from_sim no)
-		(at 42.418 23.114 0)
+		(at 42.545 22.86 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7189,6 +7189,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 138.43) (xy 68.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8d9cb0-9971-46fc-be71-6c1c73d70d03")
+	)
+	(wire
+		(pts
 			(xy 222.25 119.38) (xy 222.25 114.3)
 		)
 		(stroke
@@ -8326,6 +8336,16 @@
 			(justify left bottom)
 		)
 		(uuid "cba544a7-71c5-4769-a8be-61b8fc1327b1")
+	)
+	(label "GPIO12{slash}PWM0"
+		(at 68.58 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cceacfb1-49b0-4ace-b7d2-18fcb5af7140")
 	)
 	(label "PWM1"
 		(at 354.33 64.77 0)
@@ -10923,6 +10943,62 @@
 			(project "power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 124.46)
+		(size 34.29 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b02ca1db-6a65-4c53-8201-c0e912e6899a")
+		(property "Sheetname" "Buzzer"
+			(at 30.48 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "_buzzer.kicad_sch"
+			(at 30.48 151.0796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" input
+			(at 64.77 138.43 0)
+			(uuid "d979888e-94f8-4060-8a18-2f9a2238ef01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
 				)
 			)
 		)

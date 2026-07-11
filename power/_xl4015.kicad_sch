@@ -8,6 +8,7 @@
 		(title "PilotPi: Power")
 		(date "15 nov 2012")
 		(rev "4")
+		(comment 1 "VCC -> 5V switching PSU")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1704,6 +1705,17 @@
 				)
 			)
 		)
+		(property "Part" "RVT1C471M0810"
+			(at 262.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb73c241-38f9-4c80-9c83-09301fe46c50")
 		)
@@ -1786,6 +1798,17 @@
 				)
 			)
 		)
+		(property "Part" "0805B105M500AT"
+			(at 142.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bb0b724-7f88-4991-9f72-6aa5ac8ac3c9")
 		)
@@ -1858,6 +1881,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 121.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "VT1H221M1010"
 			(at 121.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2038,6 +2072,17 @@
 				)
 			)
 		)
+		(property "Part" "0805B105M500AT"
+			(at 166.37 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6617751-6b8a-48bb-9541-f71aa31d7ce3")
 		)
@@ -2110,6 +2155,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 308.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TCC0805X7R333K500DTS"
 			(at 308.61 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2282,6 +2338,17 @@
 				)
 			)
 		)
+		(property "Part" "RCA0510KFLF"
+			(at 283.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f0d1a8b-121d-4e59-b721-d4dda7ab6180")
 		)
@@ -2354,6 +2421,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0805B105M500AT"
 			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2468,6 +2546,17 @@
 				)
 			)
 		)
+		(property "Part" "SS54"
+			(at 215.9 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b9762491-ba35-48ad-9a22-2180906aaf78")
 		)
@@ -2540,6 +2629,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 283.21 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SCR0805F3K3"
 			(at 283.21 154.94 0)
 			(hide yes)
 			(show_name no)

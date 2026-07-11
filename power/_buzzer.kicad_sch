@@ -8,6 +8,7 @@
 		(title "PilotPi: Power")
 		(date "15 nov 2012")
 		(rev "4")
+		(comment 1 "active buzzer with PWM input")
 	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
@@ -1304,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "SCR0402F1K"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1511,6 +1512,17 @@
 				)
 			)
 		)
+		(property "Part" "1N4148W(KTP)"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "005e7b8c-f8a2-470c-9778-56f3502675e8")
 		)
@@ -1549,7 +1561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS8050"
+		(property "Value" "BC847C"
 			(at 156.21 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,6 +1620,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "BC847C,215"
 			(at 151.13 100.33 0)
 			(hide yes)
 			(show_name no)

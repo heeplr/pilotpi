@@ -1336,7 +1336,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "CC0402X7R50V104KN"
 			(at 179.07 91.44 0)
 			(hide yes)
 			(show_name no)

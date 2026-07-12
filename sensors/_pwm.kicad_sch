@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "CC0402X7R50V104KN"
 			(at 30.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4681,7 +4681,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "CC0402X7R50V104KN"
 			(at 256.54 92.71 0)
 			(hide yes)
 			(show_name no)

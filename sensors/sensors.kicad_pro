@@ -1005,7 +1005,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2,JP3,R36-37,C13-17,#PWR69,#PWR74-90,Y3-4,U8-9",
     "variants": []
   },
   "sheets": [
@@ -1044,6 +1044,10 @@
     [
       "6d51b619-4bc5-4344-81ae-260f6b2b0bff",
       "Boot mode"
+    ],
+    [
+      "afc15798-3c11-4a31-9692-e2d09bc31df2",
+      "CAN"
     ]
   ],
   "text_variables": {},

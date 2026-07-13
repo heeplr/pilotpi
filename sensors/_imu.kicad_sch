@@ -1253,7 +1253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF (104) 10% 16V"
+		(property "Value" "100nF 10% 16V"
 			(at 223.266 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,7 +1420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF (224) 10% 16V"
+		(property "Value" "220nF 10% 16V"
 			(at 234.696 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +1662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF (103) 10% 50V"
+		(property "Value" "10nF 10% 50V"
 			(at 246.126 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)

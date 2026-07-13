@@ -2536,7 +2536,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2626,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2716,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2806,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3151,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +3718,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3958,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +4123,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,7 +4380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF (104) 10% 16V"
+		(property "Value" "100nF 10% 16V"
 			(at 25.146 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF (104) 10% 16V"
+		(property "Value" "100nF 10% 16V"
 			(at 262.89 98.806 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4803,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +4893,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 104.902 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3KΩ (3301) ±1%"
+		(property "Value" "3.3KΩ ±1%"
 			(at 188.468 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω (2200) ±1%"
+		(property "Value" "220Ω ±1%"
 			(at 129.032 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1114,7 +1114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF (474) 10% 25V"
+		(property "Value" "470nF 10% 25V"
 			(at 162.052 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +1341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF (104) 10% 16V"
+		(property "Value" "100nF 10% 16V"
 			(at 194.056 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)

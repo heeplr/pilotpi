@@ -1370,7 +1370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470Ω (4700) ±1%"
+		(property "Value" "470Ω ±1%"
 			(at 159.512 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +1793,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ (1002) ±1%"
+		(property "Value" "10KΩ ±1%"
 			(at 130.048 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2061,7 +2061,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ (1002) ±1%"
+		(property "Value" "10KΩ ±1%"
 			(at 93.98 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)

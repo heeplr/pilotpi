@@ -12,3 +12,6 @@
 
 ![front-pcb](./preview/power-front-pcb.svg)
 ![back-pcb](./preview/power-back-pcb.svg)
+
+![front-asy](./preview/power-front-asy.svg)
+![back-asy](./preview/power-back-asy.svg)

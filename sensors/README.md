@@ -19,3 +19,6 @@
 
 ![front-pcb](./preview/sensors-front-pcb.svg)
 ![back-pcb](./preview/sensors-back-pcb.svg)
+
+![front-asy](./preview/sensors-front-asy.svg)
+![back-asy](./preview/sensors-back-asy.svg)

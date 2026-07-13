@@ -7,9 +7,15 @@ Based on https://github.com/SalimTerryLi/PilotPi_PCB
 
 ## Changes
 
-### rc4
+### rc5
 * optimize for cost
 * add piezo speaker
-* move Vref on Power board
-* use jumpers for one-time config, not switches
-* jumper for Vref -> ADC to use input for other stuff
+* add CAN interface
+* move Vref to Power board
+* use jumpers for config, not switches
+* jumper for Vref -> ADC to optionally free input for other stuff
+
+
+## TODO
+* use modern synchronous DCDC converter
+* use KiCAD design variants? (CMx, beagleboard, etc.)

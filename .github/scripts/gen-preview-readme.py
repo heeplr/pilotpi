@@ -22,8 +22,8 @@ def generate_readme(board_name, board_title):
 
     # Discover all SVG files
     svg_files = sorted(exports_dir.glob("*.svg"), reverse=True)
-    schematic_files = [f.name for f in svg_files if not f.name.endswith("-pcb.svg")]
-
+    schematic_files = [f.name for f in svg_files if not f.name.endswith("-pcb.svg") and not f.name.endswith("-asy.svg")]
+    assembly_files = [f.name for f in svg_files if f.name.endswith("-asy.svg")]
     # Build markdown
     lines = [
         f"# {board_title}",
@@ -45,6 +45,13 @@ def generate_readme(board_name, board_title):
     for pcb_file in [ f"{board_name}-front-pcb.svg", f"{board_name}-back-pcb.svg"]:
         display_name = slugify_name(pcb_file) or "PCB"
         encoded_path = quote(f"./preview/{pcb_file}")
+        lines.append(f"![{display_name}]({encoded_path})")
+    lines.append("")
+
+    # assembly section (if any)
+    for asy_file in assembly_files:
+        display_name = slugify_name(asy_file)
+        encoded_path = quote(f"./preview/{asy_file}")
         lines.append(f"![{display_name}]({encoded_path})")
     lines.append("")
 

@@ -45,8 +45,10 @@ jobs:
       - name: Export board to SVG
         run: |
           cd "${{matrix.board.name}}"
-          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-front-pcb.svg" --mode-single --layers "F.Cu,F.Silkscreen,F.Fab,Edge.Cuts" "${{matrix.board.name}}.kicad_pcb"
-          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-back-pcb.svg" --mode-single --layers "B.Cu,B.Silkscreen,B.Fab,Edge.Cuts" "${{matrix.board.name}}.kicad_pcb"
+          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-front-pcb.svg" --mode-single --fit-page-to-board --layers "F.Cu,F.Silkscreen,F.Mask,Edge.Cuts" "${{matrix.board.name}}.kicad_pcb"
+          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-back-pcb.svg" --mode-single --fit-page-to-board --layers "B.Cu,B.Silkscreen,B.Mask,Edge.Cuts" --mirror "${{matrix.board.name}}.kicad_pcb"
+          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-front-asy.svg" --mode-single --fit-page-to-board --layers "F.Fab,Edge.Cuts" "${{matrix.board.name}}.kicad_pcb"
+          kicad-cli pcb export svg --output "preview/${{matrix.board.name}}-back-asy.svg" --mode-single --fit-page-to-board --layers "B.Fab,Edge.Cuts" "${{matrix.board.name}}.kicad_pcb"
 
       - name: Generate README with embedded SVGs
         run: |

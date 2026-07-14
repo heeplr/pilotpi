@@ -911,6 +911,12 @@
         },
         {
           "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -932,12 +938,72 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGI-KEY_PART_NUMBER",
+          "name": "DIGI-KEY_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGI-KEY_PURCHASE_URL",
+          "name": "DIGI-KEY_PURCHASE_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_LINK",
+          "name": "SNAPEDA_LINK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1009,7 +1075,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J2,JP3,R36-37,C13-17,#PWR69,#PWR74-90,Y3-4,U8-9",
+    "used_designators": "J2,JP3,R36-45,C13-18,#PWR69,#PWR74-96,Y3-4,U8-10",
     "variants": []
   },
   "sheets": [

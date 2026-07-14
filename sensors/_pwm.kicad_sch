@@ -2579,7 +2579,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2759,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2939,7 +2939,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3104,7 +3104,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3194,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3443,6 +3443,17 @@
 			)
 		)
 		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+			(at 158.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "PCA9685PW/Q900,118"
 			(at 158.75 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3761,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4001,7 +4012,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4166,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4600,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4857,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4936,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 92.71 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5101,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "0402WGF3301TCE"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "RC0402FR-07220RL"
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Value" "ASE-xxxMHz"
+		(property "Value" "25M-3225"
 			(at 209.804 85.7818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5348,6 +5359,17 @@
 			)
 		)
 		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+			(at 218.44 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Y322525MNCCZ"
 			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)

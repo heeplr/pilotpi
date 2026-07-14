@@ -1622,7 +1622,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "C25744"
 			(at 120.65 111.76 0)
 			(hide yes)
 			(show_name no)

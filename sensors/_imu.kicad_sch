@@ -1464,7 +1464,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "TCC0402X7R224K250ATM"
 			(at 240.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1706,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "FN15X103J500PNG"
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2031,7 +2031,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "ICM-42605-HXY"
 			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)

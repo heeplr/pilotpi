@@ -755,7 +755,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -775,8 +775,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x07_Odd_Even"
-				(at 1.27 -10.16 0)
+			(property "Value" "Conn_02x08_Odd_Even"
+				(at 1.27 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -807,7 +807,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -840,10 +840,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x07_Odd_Even_1_1"
+			(symbol "Conn_02x08_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 8.89)
-					(end 3.81 -8.89)
+					(end 3.81 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -930,6 +930,17 @@
 					)
 				)
 				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 3.81 7.747)
 					(end 2.54 7.493)
 					(stroke
@@ -998,6 +1009,17 @@
 				(rectangle
 					(start 3.81 -7.493)
 					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1251,6 +1273,42 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3766,6 +3824,12 @@
 		(uuid "704d6d51-bb34-4cbf-83d8-841e208048d8")
 	)
 	(junction
+		(at 21.59 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ff986b-02d8-49d3-9016-2201a27cbaf4")
+	)
+	(junction
 		(at 58.42 67.31)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3782,6 +3846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ca6845b-e703-4cc7-9b60-5ca51dc7b10e")
+	)
+	(junction
+		(at 41.91 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7aa7eaa-3046-4391-8669-73b5b5c49f42")
 	)
 	(junction
 		(at 76.2 72.39)
@@ -4039,6 +4109,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 214.63) (xy 39.37 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02709b39-843e-4d86-b1f5-fac2f8972aba")
+	)
+	(wire
+		(pts
 			(xy 29.21 135.89) (xy 36.83 135.89)
 		)
 		(stroke
@@ -4119,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 212.09) (xy 41.91 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ff4f96-9c58-45ac-b8fd-246e6f6e73bb")
+	)
+	(wire
+		(pts
 			(xy 21.59 217.17) (xy 21.59 219.71)
 		)
 		(stroke
@@ -4196,6 +4286,16 @@
 			(type solid)
 		)
 		(uuid "252c2642-5979-4a84-8d39-11da2e3821fe")
+	)
+	(wire
+		(pts
+			(xy 41.91 209.55) (xy 41.91 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f9f3e2-db1a-4a9f-9fcb-4459ad54331e")
 	)
 	(wire
 		(pts
@@ -4399,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 212.09) (xy 41.91 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1dc22e-568b-4f62-ab90-e03fbbb62743")
+	)
+	(wire
+		(pts
 			(xy 29.21 123.19) (xy 36.83 123.19)
 		)
 		(stroke
@@ -4589,6 +4699,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 212.09) (xy 21.59 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb96db1-e97f-484b-a4c4-d82aedfa6cad")
+	)
+	(wire
+		(pts
 			(xy 21.59 222.25) (xy 26.67 222.25)
 		)
 		(stroke
@@ -4736,6 +4856,16 @@
 			(type default)
 		)
 		(uuid "7b287441-a125-4fd9-a00b-43a5d65c5c55")
+	)
+	(wire
+		(pts
+			(xy 26.67 212.09) (xy 21.59 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b45ebff-669b-46e2-b3eb-63fafca5d4df")
 	)
 	(wire
 		(pts
@@ -4929,16 +5059,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 214.63) (xy 41.91 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e055f46-c2f7-4c05-a527-5ba415cf1db5")
-	)
-	(wire
-		(pts
 			(xy 21.59 219.71) (xy 26.67 219.71)
 		)
 		(stroke
@@ -5126,16 +5246,6 @@
 			(type solid)
 		)
 		(uuid "b73bbc85-9c79-4ab1-bfa9-ba86dc5a73fe")
-	)
-	(wire
-		(pts
-			(xy 41.91 214.63) (xy 41.91 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75aa0c1-43bc-456e-8408-ea9aece7a4de")
 	)
 	(wire
 		(pts
@@ -6905,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Part" "C25744"
+		(property "Part" "0402WGF3301TCE"
 			(at 173.99 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7486,7 @@
 				)
 			)
 		)
-		(property "Part" "C25744"
+		(property "Part" "0402WGF3301TCE"
 			(at 165.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7779,6 +7889,17 @@
 				)
 			)
 		)
+		(property "Part" "ZX-PZ2.54-1-16PZZ"
+			(at 24.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "cfc366ae-79ea-41a6-b60b-7b9bdcf7d47a")
 		)
@@ -7913,7 +8034,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 212.09 0)
+		(at 41.91 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7923,7 +8044,7 @@
 		(dnp no)
 		(uuid "d03bc3de-1508-4c40-91ff-3b9356c8e8e8")
 		(property "Reference" "#PWR070"
-			(at 41.91 215.9 0)
+			(at 41.91 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7934,7 +8055,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 42.2783 207.7656 0)
+			(at 42.2783 205.2256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7944,7 +8065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 212.09 0)
+			(at 41.91 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7954,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 212.09 0)
+			(at 41.91 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7964,7 +8085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 212.09 0)
+			(at 41.91 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,7 +8275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 34.29 222.25 180)
 		(unit 1)
 		(body_style 1)
@@ -8184,7 +8305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
 			(at 34.29 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +8327,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 34.29 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -8217,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "PZ254R-12-16P"
 			(at 34.29 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -8269,6 +8390,12 @@
 		)
 		(pin "13"
 			(uuid "b19ddc60-1f38-4929-bfeb-ce4638fb675b")
+		)
+		(pin "15"
+			(uuid "ebe75a9c-b56b-4fb8-ae9c-6eabce47128a")
+		)
+		(pin "16"
+			(uuid "04a53a88-c4e9-4265-af54-d47ee8ed249d")
 		)
 		(instances
 			(project "sensors"
@@ -8421,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "1.25-4PWTDK"
 			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)

@@ -1012,6 +1012,17 @@
 				)
 			)
 		)
+		(property "Part" "MS561101BA03-50"
+			(at 140.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "7d7733b3-d6e9-4470-ab58-b8f64606cdb7")
 		)

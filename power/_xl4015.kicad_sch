@@ -1982,6 +1982,17 @@
 				)
 			)
 		)
+		(property "Part" "XL4015E1"
+			(at 198.12 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "9bcb5e1b-862f-4e7b-b5fa-31791bf32cd7")
 		)
@@ -2247,6 +2258,17 @@
 		)
 		(property "Description" "Inductor with iron core"
 			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMPC1265HP-470MG-D"
+			(at 226.06 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

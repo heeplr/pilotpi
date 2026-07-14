@@ -9623,7 +9623,7 @@
 				)
 			)
 		)
-		(property "Part" "C2286"
+		(property "Part" "KT-0603R"
 			(at 303.53 43.18 0)
 			(hide yes)
 			(show_name no)

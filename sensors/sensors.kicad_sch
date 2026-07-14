@@ -10141,6 +10141,162 @@
 		)
 	)
 	(sheet
+		(at 266.7 180.34)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd0a6587-e635-43b1-8efe-9a5bf011fa36")
+		(property "Sheetname" "DShot"
+			(at 266.7 179.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "_dshot.kicad_sch"
+			(at 266.7 203.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STR" input
+			(at 294.64 195.58 0)
+			(uuid "e2d6b50d-ff5d-4888-9254-9bb47d9af547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 294.64 191.77 0)
+			(uuid "47411087-f0a7-4f50-8200-6058fb08cb11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAT" input
+			(at 294.64 187.96 0)
+			(uuid "73921cf3-22b4-48b4-8ed7-35938e9fb97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 266.7 185.42 180)
+			(uuid "e8e8af16-6782-47d1-bc0d-39432dcb746a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT3" output
+			(at 266.7 187.96 180)
+			(uuid "311557d4-cecc-484a-9940-94c6ef7bcdd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 266.7 182.88 180)
+			(uuid "465c006f-24fd-429d-8067-1489fdc8be8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT4" output
+			(at 266.7 190.5 180)
+			(uuid "01c84cc6-d701-4aba-895b-ce06e503bdcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT5" output
+			(at 266.7 193.04 180)
+			(uuid "6b3dfa9c-d522-4b1d-9f92-befa7e7e0800")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT6" output
+			(at 266.7 195.58 180)
+			(uuid "5947e9d7-7122-47cd-b5ac-0725400b5312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT7" output
+			(at 266.7 198.12 180)
+			(uuid "8e678f00-766c-4d90-8550-fb1b8e540cb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT8" output
+			(at 266.7 200.66 180)
+			(uuid "4c846e24-4bc9-47d8-be70-b173e0922d47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 266.7 116.84)
 		(size 27.94 17.78)
 		(exclude_from_sim no)

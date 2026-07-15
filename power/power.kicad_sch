@@ -7001,6 +7001,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 160.02) (xy 219.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677b1a3c-f22d-48e8-86b1-3da0ba741ea6")
+	)
+	(wire
+		(pts
 			(xy 381 67.31) (xy 388.62 67.31)
 		)
 		(stroke
@@ -7388,6 +7398,16 @@
 			(type default)
 		)
 		(uuid "9dca5d14-d971-435d-a7e5-29af53e6aa23")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 219.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea4e61b-97c3-4903-9db1-1da7e3c6df8f")
 	)
 	(wire
 		(pts
@@ -8169,7 +8189,7 @@
 		)
 		(uuid "04fbd4d1-e21f-411d-b4f1-ac3641d54cfb")
 	)
-	(label "ID_SDA"
+	(label "GPIO0{slash}SDA0"
 		(at 31.75 69.85 0)
 		(effects
 			(font
@@ -8239,7 +8259,7 @@
 		)
 		(uuid "25551da4-8f69-4257-8750-2ebd930e8799")
 	)
-	(label "ID_SCL"
+	(label "GPIO1{slash}SCL0"
 		(at 100.33 69.85 180)
 		(effects
 			(font
@@ -8398,6 +8418,16 @@
 			(justify right bottom)
 		)
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
+	)
+	(label "GPIO1{slash}SCL0"
+		(at 215.9 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a0c396c-247e-48fd-b815-d4c69dded04b")
 	)
 	(label "GPIO13{slash}PWM1"
 		(at 215.9 49.53 180)
@@ -8848,6 +8878,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce49aa29-ad22-4002-8ba6-28da980f82a2")
+	)
+	(label "GPIO0{slash}SDA0"
+		(at 215.9 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf6f0a73-01fc-4bd3-9c33-1722a576378e")
 	)
 	(label "PWM3"
 		(at 354.33 59.69 0)
@@ -11682,6 +11722,72 @@
 			(project "power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 148.59)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9807271d-1620-4fc7-afb4-0d370b0f1cc9")
+		(property "Sheetname" "I2C expander"
+			(at 219.71 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "_i2c.kicad_sch"
+			(at 219.71 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 219.71 156.21 180)
+			(uuid "391e91c5-94ee-49f8-b717-e101e305c408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 219.71 160.02 180)
+			(uuid "172b4c83-77e6-4b8b-9f54-7cd3f060d600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
 				)
 			)
 		)

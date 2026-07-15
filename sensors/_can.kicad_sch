@@ -2870,9 +2870,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04aa1985-f07c-4502-bb5e-6c330a4a8a79")
@@ -2898,7 +2898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2931,7 +2931,7 @@
 				)
 			)
 		)
-		(property "Part" "2541WV-2X01P"
+		(property "Part" ""
 			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)

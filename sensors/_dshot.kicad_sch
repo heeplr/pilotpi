@@ -2463,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HCT595"
+		(property "Value" "74AHCT595"
 			(at 144.3833 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2474,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+		(property "Footprint" "pilotpi:WQFN-16-1EP_2.5x3.5mm_P0.5mm"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2507,7 +2507,7 @@
 				)
 			)
 		)
-		(property "Part" "HX74HC595-S"
+		(property "Part" "SN74AHCT595BQBR"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)

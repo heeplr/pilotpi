@@ -4324,16 +4324,8 @@
 		(uuid "0508eaca-d881-40f4-b171-e5985fb170c3")
 	)
 	(no_connect
-		(at 130.81 134.62)
-		(uuid "4faca662-ba81-4cd2-9b6b-a882c7ba19a1")
-	)
-	(no_connect
 		(at 73.66 67.31)
 		(uuid "6d862813-0024-4e10-8229-2a3707916120")
-	)
-	(no_connect
-		(at 130.81 114.3)
-		(uuid "73fa931a-9312-4d40-bf35-af4e11660aef")
 	)
 	(no_connect
 		(at 73.66 74.93)
@@ -4677,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 195.58) (xy 298.45 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eeb9893-b067-4e22-ab0c-8d7df6f1d2c0")
+	)
+	(wire
+		(pts
 			(xy 41.91 212.09) (xy 41.91 214.63)
 		)
 		(stroke
@@ -4924,6 +4926,16 @@
 			(type solid)
 		)
 		(uuid "3b2261b8-cc6a-4f24-9a9d-8411b13f362c")
+	)
+	(wire
+		(pts
+			(xy 294.64 187.96) (xy 298.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4f3a55-fd67-4cef-8c36-709afb164ff8")
 	)
 	(wire
 		(pts
@@ -6087,6 +6099,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 191.77) (xy 298.45 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bd5a2f-afb5-4063-bf4e-cc27049bc8bb")
+	)
+	(wire
+		(pts
 			(xy 139.7 157.48) (xy 139.7 162.56)
 		)
 		(stroke
@@ -6315,6 +6337,16 @@
 		)
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
 	)
+	(label "GPIO22"
+		(at 298.45 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c2e4758-4a9a-4334-aa89-1ae45c6b17fd")
+	)
 	(label "PWM5"
 		(at 29.21 143.51 0)
 		(effects
@@ -6334,6 +6366,16 @@
 			(justify right bottom)
 		)
 		(uuid "141927f1-b37f-4f80-9623-6d5f085cb24b")
+	)
+	(label "GPIO23"
+		(at 298.45 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14d200c6-9a34-461b-a59d-d4ae8382fdc5")
 	)
 	(label "GPIO1{slash}SCL0"
 		(at 106.68 69.85 180)
@@ -6836,7 +6878,7 @@
 		(uuid "b64a2cd2-1bcf-4d65-ac61-508537c93d3e")
 	)
 	(label "GPIO4{slash}GPCLK0"
-		(at 181.61 121.92 0)
+		(at 181.61 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7084,6 +7126,16 @@
 			(justify left bottom)
 		)
 		(uuid "fafbb696-595c-4c69-a6e3-0f7edbae6889")
+	)
+	(label "SDIODAT0{slash}GPIO24"
+		(at 298.45 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fff084b2-e64e-415d-8f76-f329170fa767")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -10833,7 +10885,7 @@
 			)
 		)
 		(pin "CLK" input
-			(at 294.64 191.77 0)
+			(at 294.64 187.96 0)
 			(uuid "47411087-f0a7-4f50-8200-6058fb08cb11")
 			(effects
 				(font
@@ -10843,7 +10895,7 @@
 			)
 		)
 		(pin "DAT" input
-			(at 294.64 187.96 0)
+			(at 294.64 191.77 0)
 			(uuid "73921cf3-22b4-48b4-8ed7-35938e9fb97b")
 			(effects
 				(font

@@ -4744,16 +4744,6 @@
 		)
 		(uuid "14e0a025-e4ee-4fec-b424-6282582a7305")
 	)
-	(text "GPIO0, GPIO1, GPIO4, GPIO5, \nGPIO7, GPIO14, GPIO16, GPIO22, \nGPIO23 and GPIO26, GPIO27"
-		(exclude_from_sim no)
-		(at 227.076 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2bad9fd6-1878-4aba-831b-7723946fdb7d")
-	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
 		(at 302.26 259.08 0)

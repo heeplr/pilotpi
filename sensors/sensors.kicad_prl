@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -53,7 +53,11 @@
       "board_outline_area",
       "ly_points"
     ],
+<<<<<<< HEAD
     "visible_layers": "00000000_00000000_55555555_575555e5",
+=======
+    "visible_layers": "00000000_00000000_55555555_575555a5",
+>>>>>>> bc60c04 (lots of changes)
     "zone_display_mode": 0
   },
   "git": {

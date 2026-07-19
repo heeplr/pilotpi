@@ -5784,10 +5784,6 @@
 		(uuid "2944d409-416f-48c4-a8ad-9598b8dbf0af")
 	)
 	(no_connect
-		(at 73.66 57.15)
-		(uuid "4838ef4c-b267-408c-8a8d-a40b9481891d")
-	)
-	(no_connect
 		(at 73.66 85.09)
 		(uuid "5918680b-c492-4d3f-8cb5-362aa653fa9d")
 	)
@@ -5822,14 +5818,6 @@
 	(no_connect
 		(at 60.96 41.91)
 		(uuid "dc6273e5-e077-4d2d-b48f-08563882c5af")
-	)
-	(no_connect
-		(at 73.66 69.85)
-		(uuid "dcf0bb1f-7189-4183-882a-a25eeb98af8e")
-	)
-	(no_connect
-		(at 60.96 69.85)
-		(uuid "e5146ebb-e4fb-409b-87ad-caf062a556f3")
 	)
 	(bus_entry
 		(at 361.95 46.99)
@@ -8449,16 +8437,6 @@
 		)
 		(uuid "5069ddbc-357e-4355-aaa5-a8f551963b7a")
 	)
-	(label "GPIO17"
-		(at 215.9 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "551c38b9-b31f-4126-9fc0-9ae2c077888c")
-	)
 	(label "PWM9"
 		(at 354.33 44.45 0)
 		(effects
@@ -8588,16 +8566,6 @@
 			(justify left bottom)
 		)
 		(uuid "6aa18ae1-e21c-45e1-a485-5e13338be00c")
-	)
-	(label "GPIO6"
-		(at 198.12 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c236850-30c8-43ae-be08-a37cc84d2b59")
 	)
 	(label "VREF"
 		(at 144.78 36.83 0)
@@ -8768,16 +8736,6 @@
 			(justify right bottom)
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
-	)
-	(label "GPIO22"
-		(at 198.12 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aeffb958-7486-4fd6-93ca-a1efad8546b9")
 	)
 	(label "PWM11"
 		(at 354.33 39.37 0)
@@ -8958,16 +8916,6 @@
 			(justify left bottom)
 		)
 		(uuid "e08dee3b-a217-49a4-a168-f1bfe3650e83")
-	)
-	(label "GPIO23"
-		(at 248.92 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0f82c53-5668-4920-b4ff-eed360a70333")
 	)
 	(label "PWM13"
 		(at 382.27 34.29 0)

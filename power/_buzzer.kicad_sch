@@ -1305,8 +1305,19 @@
 				)
 			)
 		)
-		(property "Part" "SCR0402F1K"
+		(property "Part" "0402WGF1001TCE"
 			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 138.43 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1512,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Part" "1N4148W(KTP)"
+		(property "Part" "1N4148W"
 			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +1641,7 @@
 				)
 			)
 		)
-		(property "Part" "BC847C,215"
+		(property "Part" "SS8050(RANGE:200-350)"
 			(at 151.13 100.33 0)
 			(hide yes)
 			(show_name no)

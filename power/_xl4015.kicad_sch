@@ -1798,7 +1798,7 @@
 				)
 			)
 		)
-		(property "Part" "0805B105M500AT"
+		(property "Part" "CL21B105KBFNNNE"
 			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2083,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Part" "0805B105M500AT"
+		(property "Part" "CL21B105KBFNNNE"
 			(at 166.37 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2176,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Part" "TCC0805X7R333K500DTS"
+		(property "Part" "0805B333K500NT"
 			(at 308.61 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2360,7 +2360,7 @@
 				)
 			)
 		)
-		(property "Part" "RCA0510KFLF"
+		(property "Part" "0805W8F1002T5E"
 			(at 283.21 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Part" "0805B105M500AT"
+		(property "Part" "CL21B105KBFNNNE"
 			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Part" "SCR0805F3K3"
+		(property "Part" "0805W8F3301T5E"
 			(at 283.21 154.94 0)
 			(hide yes)
 			(show_name no)

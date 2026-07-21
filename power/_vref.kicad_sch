@@ -1672,7 +1672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1705,7 +1705,7 @@
 				)
 			)
 		)
-		(property "Part" "FN21X104K500ECG"
+		(property "Part" "CL05B104KB54PNC"
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1753,7 +1753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0uF (105) 10% 25V"
+		(property "Value" "1uF (105) 10% 25V"
 			(at 194.056 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1797,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Part" "0402X105K250CT"
+		(property "Part" "CL05A105KA5NQNC"
 			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1845,7 +1845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0uF (105) 10% 25V"
+		(property "Value" "1uF (105) 10% 25V"
 			(at 242.316 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Part" "0402X105K250CT"
+		(property "Part" "CL05A105KA5NQNC"
 			(at 247.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2226,8 +2226,19 @@
 				)
 			)
 		)
-		(property "Part" "FN21X104K500ECG"
+		(property "Part" "CL05B104KB54PNC"
 			(at 233.68 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 233.68 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +2558,7 @@
 				)
 			)
 		)
-		(property "Part" "REF5050AIDGKT"
+		(property "Part" "REF5050AIDGKR"
 			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)

@@ -1925,7 +1925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000292-icm-42605-v1.6.pdf"
 			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)

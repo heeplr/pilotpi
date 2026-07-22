@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Pressure:MS5611-01BA"
+		(symbol "pilotpi:SPL06-001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -181,8 +181,8 @@
 					)
 				)
 			)
-			(property "Value" "MS5611-01BA"
-				(at 7.62 8.89 0)
+			(property "Value" "SPL06-001"
+				(at 9.144 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -191,7 +191,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
+			(property "Footprint" "pilotpi:LGA-8_2.5x2mm_P0.65mm_ClockwisePinNumbering"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -202,7 +202,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -213,7 +213,7 @@
 					)
 				)
 			)
-			(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+			(property "Description" "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -246,7 +246,7 @@
 					)
 				)
 			)
-			(symbol "MS5611-01BA_0_1"
+			(symbol "SPL06-001_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -259,11 +259,11 @@
 					)
 				)
 			)
-			(symbol "MS5611-01BA_1_1"
+			(symbol "SPL06-001_1_1"
 				(pin power_in line
-					(at 0 10.16 270)
+					(at -1.27 -10.16 90)
 					(length 2.54)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -279,9 +279,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at -10.16 -3.81 0)
 					(length 2.54)
-					(name "PS"
+					(name "CSB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -296,10 +296,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
+				(pin bidirectional line
+					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "SDI/SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -315,9 +315,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -5.08 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "CSB"
+					(name "SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -332,11 +332,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -5.08 0)
+				(pin output line
+					(at -10.16 3.81 0)
 					(length 2.54)
-					(hide yes)
-					(name "CSB"
+					(name "SDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -351,10 +350,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at 1.27 10.16 270)
 					(length 2.54)
-					(name "SDO"
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -369,10 +368,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 0 0)
+				(pin power_in line
+					(at 1.27 -10.16 90)
 					(length 2.54)
-					(name "SDI/SDA"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -387,10 +386,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin power_in line
+					(at -1.27 10.16 270)
 					(length 2.54)
-					(name "SCLK"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -664,38 +663,44 @@
 		)
 	)
 	(junction
-		(at 118.11 85.09)
+		(at 140.97 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b12e9c19-aa37-4787-958f-cfd7e5ad511f")
+		(uuid "1e5a7541-e263-41f6-b8f1-52aab078a382")
+	)
+	(junction
+		(at 140.97 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda0af98-a4ae-4987-8ac8-f56bc8cf7c0f")
 	)
 	(no_connect
-		(at 130.81 87.63)
-		(uuid "2eecbf27-cd8a-41ae-b09b-162af812784a")
+		(at 130.81 93.98)
+		(uuid "9f11d857-fa05-4e1a-9978-86f20dd862ea")
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 130.81 85.09)
+			(xy 139.7 77.47) (xy 140.97 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1133bc18-82fc-418b-b2f0-97a2bb0e1477")
+		(uuid "02bd8977-bef9-46d3-a5a8-3877db9dff4f")
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 118.11 66.04)
+			(xy 142.24 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34de3525-d376-4870-aa2c-a62bdede74fc")
+		(uuid "19980780-3144-4856-a9e9-803cb981b1ca")
 	)
 	(wire
 		(pts
-			(xy 128.27 90.17) (xy 130.81 90.17)
+			(xy 128.27 88.9) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -715,27 +720,47 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 118.11 95.25)
+			(xy 139.7 100.33) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66db0ee2-0af1-4ab1-b7bd-aa4a8cfcd7a2")
+		(uuid "8206be2a-f784-41cc-aca7-b255703e1674")
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 118.11 85.09)
+			(xy 139.7 80.01) (xy 139.7 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99950ae6-4288-4b12-aab9-82be2d796bd6")
+		(uuid "8b65695a-16c7-49cd-a703-2b2c16162571")
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 130.81 92.71)
+			(xy 139.7 102.87) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9465f56d-dd78-4b18-b66e-e55d34ab3104")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b134d336-c2e3-4295-8a83-37a08b08332c")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +770,37 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 66.04) (xy 140.97 80.01)
+			(xy 129.54 86.36) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b995648d-1d83-411f-b5ac-fbebf2b441f4")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25eb78b-381f-45bb-b62b-845bd48e712b")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dd2a67-9245-4f6a-afb5-24b56d1426e6")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 140.97 77.47)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +810,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 140.97 119.38)
+			(xy 142.24 100.33) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df62ce9f-8110-4938-94fa-31a1a2fc4967")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 140.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +840,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 128.27 90.17 180)
+		(at 128.27 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -786,7 +851,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 128.27 92.71 180)
+		(at 128.27 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,7 +1011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Pressure:MS5611-01BA")
+		(lib_id "pilotpi:SPL06-001")
 		(at 140.97 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -968,7 +1033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MS5611-01BA"
+		(property "Value" "SPL06-001"
 			(at 149.86 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -979,7 +1044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
+		(property "Footprint" "pilotpi:LGA-8_2.5x2mm_P0.65mm_ClockwisePinNumbering"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -990,7 +1055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1001,7 +1066,7 @@
 				)
 			)
 		)
-		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+		(property "Description" "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1012,7 +1077,7 @@
 				)
 			)
 		)
-		(property "Part" "MS561101BA03-50"
+		(property "Part" "SPL06-001"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1208,7 +1273,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 118.11 66.04 0)
+		(at 129.54 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1218,7 +1283,7 @@
 		(dnp no)
 		(uuid "dd526a63-111b-48b3-a7d2-1eda16ca06aa")
 		(property "Reference" "#PWR053"
-			(at 118.11 69.85 0)
+			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1229,7 +1294,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 118.4783 61.7156 0)
+			(at 129.9083 61.7156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1239,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 66.04 0)
+			(at 129.54 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1249,7 +1314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 66.04 0)
+			(at 129.54 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1259,7 +1324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 66.04 0)
+			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1347,7 +1412,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 179.07 91.44 0)
 			(hide yes)
 			(show_name no)

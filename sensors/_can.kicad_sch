@@ -2690,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402JRNPO7BN220"
+		(property "Part" "0402CG220J500NT"
 			(at 57.15 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3099,7 +3099,7 @@
 				)
 			)
 		)
-		(property "Part" "SC0402J4701F2ANRH"
+		(property "Part" "0402WGF4701TCE"
 			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3192,7 +3192,7 @@
 				)
 			)
 		)
-		(property "Part" "RCA02120RJLF"
+		(property "Part" "0402WGF1200TCE"
 			(at 222.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3509,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3601,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402JRNPO7BN220"
+		(property "Part" "0402CG220J500NT"
 			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 264.16 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4331,7 +4331,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 274.32 82.55 0)
 			(hide yes)
 			(show_name no)

@@ -1254,7 +1254,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)

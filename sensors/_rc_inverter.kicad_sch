@@ -1414,7 +1414,7 @@
 				)
 			)
 		)
-		(property "Part" "FRC0402F4700TS"
+		(property "Part" "0402WGF4700TCE"
 			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)

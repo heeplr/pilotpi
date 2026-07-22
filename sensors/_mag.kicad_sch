@@ -1158,7 +1158,7 @@
 				)
 			)
 		)
-		(property "Part" "TCC0402X5R474K250AT"
+		(property "Part" "CL10B474KA8NNNC"
 			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1385,7 +1385,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 199.39 92.71 0)
 			(hide yes)
 			(show_name no)

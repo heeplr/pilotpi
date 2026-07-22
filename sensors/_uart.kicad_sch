@@ -2544,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Part" "FRC0402F4700TS"
+		(property "Part" "0402WGF4700TCE"
 			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Part" "SCR0402F1K"
+		(property "Part" "0402WGF1001TCE"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Part" "SCR0402F1K"
+		(property "Part" "0402WGF1001TCE"
 			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3073,7 +3073,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3332,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Part" "SCR0402F1K"
+		(property "Part" "0402WGF1001TCE"
 			(at 345.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3677,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Part" "SCR0402F1K"
+		(property "Part" "0402WGF1001TCE"
 			(at 289.56 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4055,7 +4055,7 @@
 				)
 			)
 		)
-		(property "Part" "FRC0402F4700TS"
+		(property "Part" "0402WGF4700TCE"
 			(at 327.66 81.28 0)
 			(hide yes)
 			(show_name no)

@@ -1401,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 180.34 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1492,7 +1492,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 190.5 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1733,7 +1733,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1899,7 +1899,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2065,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2157,7 +2157,7 @@
 				)
 			)
 		)
-		(property "Part" "CC0402X7R50V104KN"
+		(property "Part" "CL05B104KB54PNC"
 			(at 82.55 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2248,7 +2248,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 190.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2640,7 +2640,7 @@
 				)
 			)
 		)
-		(property "Part" "RC0402FR-0722RL"
+		(property "Part" "0402WGF220JTCE"
 			(at 160.02 90.17 0)
 			(hide yes)
 			(show_name no)

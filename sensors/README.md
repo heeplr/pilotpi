@@ -10,6 +10,7 @@
 ![PWM](./preview/sensors-PWM.svg)
 ![MAG](./preview/sensors-MAG.svg)
 ![IMU](./preview/sensors-IMU.svg)
+![DShot](./preview/sensors-DShot.svg)
 ![CAN](./preview/sensors-CAN.svg)
 ![Buzzer](./preview/sensors-Buzzer.svg)
 ![Boot mode](./preview/sensors-Boot%20mode.svg)

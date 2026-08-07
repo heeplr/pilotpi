@@ -386,6 +386,10 @@
       [
         "pin_to_pin|1371600|990600|e1985a35-6e11-4f23-a105-87a0c9c2ae77|ba89e33a-2967-4aea-954a-e0871d35287b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/afc15798-3c11-4a31-9692-e2d09bc31df2",
         "SPI BUS Pin"
+      ],
+      [
+        "pin_to_pin|1371600|990600|e1985a35-6e11-4f23-a105-87a0c9c2ae77|fd8b249b-5ca7-4534-b37a-c598e858afc6|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/afc15798-3c11-4a31-9692-e2d09bc31df2",
+        ""
       ]
     ],
     "meta": {

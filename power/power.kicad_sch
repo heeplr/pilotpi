@@ -5493,10 +5493,6 @@
 		(uuid "3e249f30-3e24-4625-b7bc-d2a9f83afa44")
 	)
 	(no_connect
-		(at 73.66 44.45)
-		(uuid "4841ea0f-6bc9-424a-a9a2-12b6a3c83373")
-	)
-	(no_connect
 		(at 73.66 85.09)
 		(uuid "5918680b-c492-4d3f-8cb5-362aa653fa9d")
 	)
@@ -5515,10 +5511,6 @@
 	(no_connect
 		(at 60.96 80.01)
 		(uuid "77f6d232-33fd-44fb-83c7-314559fafcb8")
-	)
-	(no_connect
-		(at 73.66 46.99)
-		(uuid "823a11b2-bf12-410d-a3ee-df0d8a2b6adc")
 	)
 	(no_connect
 		(at 60.96 59.69)
@@ -6714,6 +6706,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 177.8) (xy 308.61 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d01bdf1-6b50-4d0a-aa93-00d4d23f131a")
+	)
+	(wire
+		(pts
 			(xy 386.08 69.85) (xy 388.62 69.85)
 		)
 		(stroke
@@ -7241,6 +7243,16 @@
 			(type solid)
 		)
 		(uuid "a571c038-3cc2-4848-b404-365f2f7338be")
+	)
+	(wire
+		(pts
+			(xy 303.53 181.61) (xy 308.61 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f2e4e9-4afa-49e7-a7a7-bead88a56034")
 	)
 	(wire
 		(pts
@@ -8532,6 +8544,16 @@
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
 	)
+	(label "GPIO15{slash}RXD0"
+		(at 303.53 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad464523-ec87-409f-98f6-83f30498a264")
+	)
 	(label "PWM11"
 		(at 354.33 39.37 0)
 		(effects
@@ -8731,6 +8753,16 @@
 			(justify left bottom)
 		)
 		(uuid "e08dee3b-a217-49a4-a168-f1bfe3650e83")
+	)
+	(label "GPIO14{slash}TXD0"
+		(at 303.53 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1138a3b-cf21-4f41-bdeb-59a3ad9aa9bc")
 	)
 	(label "VCC_PWM"
 		(at 382.27 143.51 270)

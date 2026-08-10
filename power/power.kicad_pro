@@ -961,7 +961,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "JP2-3,R16,#PWR7,#PWR16-19,JP_I2C_PWR_4-6,D4,U1,J9,J18-20,NT8",
+    "used_designators": "C21,#PWR20,#PWR95",
     "variants": []
   },
   "sheets": [

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000000_0a002005",
+    "visible_layers": "00000000_00000000_00000008_0a000095",
     "zone_display_mode": 1
   },
   "git": {
@@ -117,16 +117,16 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": false,
-      "images": false,
+      "graphics": true,
+      "images": true,
       "labels": true,
       "lockedItems": false,
-      "otherItems": false,
+      "otherItems": true,
       "pins": true,
-      "ruleAreas": false,
+      "ruleAreas": true,
       "symbols": true,
-      "text": false,
-      "wires": false
+      "text": true,
+      "wires": true
     }
   }
 }

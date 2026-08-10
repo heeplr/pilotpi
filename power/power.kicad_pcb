@@ -5139,6 +5139,7 @@
 		(property "Value" "CONN_RS485"
 			(at 3.5 9.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "234ec6c9-1c5f-4b19-9fb7-698c1efbf5fe")
 			(effects
 				(font
@@ -19173,6 +19174,58 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "A"
+		(at 132.87404 88.91 0)
+		(layer "F.SilkS")
+		(uuid "cd31d0d6-6457-4668-b3e8-b2d0ed987372")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "B"
+		(at 136.37404 88.91 0)
+		(layer "F.SilkS")
+		(uuid "22bf224f-051c-413d-a556-a82aa9cc4a95")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "RS485"
+		(at 136.37404 99.03 0)
+		(layer "F.SilkS")
+		(uuid "78ddfea5-b4f8-4395-872a-4ce50cd2f0f5")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 139.87404 88.91 0)
+		(layer "F.SilkS")
+		(uuid "dcb80f13-b801-4223-bb28-39a5118717b6")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "BAT +\n3-6S"
 		(at 101.74 77.02 0)
 		(layer "F.SilkS")
@@ -19198,7 +19251,7 @@
 		)
 	)
 	(gr_text "PilotPi Power"
-		(at 142.27 99.356212 0)
+		(at 144.07 99.356212 0)
 		(layer "F.SilkS")
 		(uuid "1cd9d1bf-cc3b-415a-96c2-a33c9dcccfe1")
 		(effects

@@ -2193,7 +2193,7 @@
 		(uuid "2030b5ee-6dd7-4307-9e7a-8e982051fb24")
 	)
 	(hierarchical_label "RTSA"
-		(shape input)
+		(shape output)
 		(at 173.99 106.68 0)
 		(effects
 			(font
@@ -2226,7 +2226,7 @@
 		(uuid "4776f691-89d0-4d15-a6c7-e4992dbde32f")
 	)
 	(hierarchical_label "RTSB"
-		(shape input)
+		(shape output)
 		(at 173.99 116.84 0)
 		(effects
 			(font
@@ -2281,7 +2281,7 @@
 		(uuid "8ac5fd8a-7351-49f1-bfa8-6c25f2dff208")
 	)
 	(hierarchical_label "TXA"
-		(shape input)
+		(shape output)
 		(at 173.99 101.6 0)
 		(effects
 			(font
@@ -2292,7 +2292,7 @@
 		(uuid "b9ac65c3-fd06-4371-87a7-fbe5d0ea4785")
 	)
 	(hierarchical_label "TXB"
-		(shape input)
+		(shape output)
 		(at 173.99 111.76 0)
 		(effects
 			(font

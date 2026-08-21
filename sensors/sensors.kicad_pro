@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.95
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -111,11 +111,23 @@
           ""
         ],
         [
-          "silk_edge_clearance|157780000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|9b80e0f9-3820-4501-bcdf-0cc927956e19",
+          "silk_edge_clearance|127750000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|9b80e0f9-3820-4501-bcdf-0cc927956e19",
           ""
         ],
         [
-          "silk_edge_clearance|159080000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|7d92107f-d01b-48db-8b36-c2b00fe56618",
+          "silk_edge_clearance|129050000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|7d92107f-d01b-48db-8b36-c2b00fe56618",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153024040|95977096|79c07597-5ab9-4d26-b4b3-a70ae9dcd11d|24cf83d2-da6d-4fcc-9746-1c8bed9d4733",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153024040|95977096|79c07597-5ab9-4d26-b4b3-a70ae9dcd11d|f644cf27-6af3-4378-99e6-5f6cd9095fe5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|165144040|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|e83d3ff5-595a-45e2-948a-ac55d27934f0",
           ""
         ],
         [
@@ -654,7 +666,7 @@
         "via_drill": 0.5
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.5,
@@ -796,6 +808,10 @@
       {
         "netclass": "I2C",
         "pattern": "/*SDA1"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "Net-(U2-LED*)"
       }
     ]
   },
@@ -1015,7 +1031,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "JP4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1062,6 +1078,10 @@
     [
       "bd0a6587-e635-43b1-8efe-9a5bf011fa36",
       "DShot"
+    ],
+    [
+      "1f34d345-dfef-4499-b9fc-3fc6a0420831",
+      "RS485"
     ]
   ],
   "text_variables": {},

@@ -13,6 +13,8 @@
 ## PCB Layout
 
 ![front-pcb](./preview/power-front-pcb.svg)
+![in1-pcb](./preview/power-in1-pcb.svg)
+![in2-pcb](./preview/power-in2-pcb.svg)
 ![back-pcb](./preview/power-back-pcb.svg)
 
 ![front-asy](./preview/power-front-asy.svg)

@@ -16,8 +16,8 @@ Based on https://github.com/SalimTerryLi/PilotPi_PCB
 * move Vref to Power board
 * use jumpers for config, not switches
 * jumper for V_batt -> ADC to optionally free input for other analog stuff
+* add shift register to SPI0
 
 
 ## TODO
-* use modern synchronous DCDC converter
 * use KiCAD design variants? (CMx, beagleboard, etc.)

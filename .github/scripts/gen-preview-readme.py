@@ -42,7 +42,7 @@ def generate_readme(board_name, board_title):
     # PCB Layout section (if any)
     lines.append("## PCB Layout")
     lines.append("")
-    for pcb_file in [ f"{board_name}-front-pcb.svg", f"{board_name}-back-pcb.svg"]:
+    for pcb_file in [ f"{board_name}-front-pcb.svg", f"{board_name}-in1-pcb.svg", f"{board_name}-in2-pcb.svg", f"{board_name}-back-pcb.svg"]:
         display_name = slugify_name(pcb_file) or "PCB"
         encoded_path = quote(f"./preview/{pcb_file}")
         lines.append(f"![{display_name}]({encoded_path})")

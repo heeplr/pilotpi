@@ -1497,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 139.7 83.82)
+			(xy 134.62 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1694,6 +1694,16 @@
 			(type default)
 		)
 		(uuid "ea57f2cc-ecaa-440d-b271-4465a218488d")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91c61a8-0076-418d-8dd3-d5d9beabb86b")
 	)
 	(hierarchical_label "B"
 		(shape bidirectional)
@@ -2239,6 +2249,97 @@
 			(project "sensors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1f34d345-dfef-4499-b9fc-3fc6a0420831"
 					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e08b18-b8ba-4220-8cca-bf75ef614d3a")
+		(property "Reference" "R47"
+			(at 130.81 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150Ω ±1%"
+			(at 130.81 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.81 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4520c9fd-9c8b-4310-b662-93ba7b9c6322")
+		)
+		(pin "1"
+			(uuid "36b9ce4f-7c0d-4cda-b6e3-98c85ba448fe")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1f34d345-dfef-4499-b9fc-3fc6a0420831"
+					(reference "R47")
 					(unit 1)
 				)
 			)

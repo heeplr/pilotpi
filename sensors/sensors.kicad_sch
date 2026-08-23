@@ -4974,6 +4974,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 130.81) (xy 171.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c72487-8950-44f1-a649-53530d1459d0")
+	)
+	(wire
+		(pts
 			(xy 76.2 72.39) (xy 76.2 77.47)
 		)
 		(stroke
@@ -5021,16 +5031,6 @@
 			(type default)
 		)
 		(uuid "1bbf3a9f-6bf3-491d-8f7c-e3ce0b51b602")
-	)
-	(wire
-		(pts
-			(xy 168.91 160.02) (xy 171.45 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4d49c2-a9e1-4721-9ea9-495642787d52")
 	)
 	(wire
 		(pts
@@ -5604,6 +5604,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 130.81) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686e84b9-8464-4601-9d7e-14375c568e91")
+	)
+	(wire
+		(pts
 			(xy 48.26 261.62) (xy 48.26 257.81)
 		)
 		(stroke
@@ -5651,6 +5661,16 @@
 			(type default)
 		)
 		(uuid "6da7334f-d59f-490c-8fb1-e498e88adc3a")
+	)
+	(wire
+		(pts
+			(xy 167.64 144.78) (xy 167.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5b00f5-b98a-4d6f-b7d9-9da0b2e47233")
 	)
 	(wire
 		(pts
@@ -5954,6 +5974,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 160.02) (xy 171.45 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd5ceee-a669-495a-8f6e-0e4eac5df3c1")
+	)
+	(wire
+		(pts
 			(xy 21.59 219.71) (xy 26.67 219.71)
 		)
 		(stroke
@@ -6254,16 +6284,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 130.81) (xy 168.91 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8bd2c3-68b3-4db4-a03a-f31d84ff7638")
-	)
-	(wire
-		(pts
 			(xy 86.36 33.02) (xy 86.36 36.83)
 		)
 		(stroke
@@ -6481,16 +6501,6 @@
 			(type solid)
 		)
 		(uuid "e93ad2ad-5587-4125-b93d-270df22eadfa")
-	)
-	(wire
-		(pts
-			(xy 168.91 130.81) (xy 171.45 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c7dc95-5d1b-4794-9bb8-a4a0579d11dd")
 	)
 	(wire
 		(pts
@@ -10367,6 +10377,96 @@
 			(project "sensors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce37bab4-86b8-4fd4-92e7-51363da94341")
+		(property "Reference" "R48"
+			(at 165.1 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω ±1%"
+			(at 170.434 137.414 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.862 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0402WGF3301TCE"
+			(at 167.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ad44c51-9348-4299-954d-2ad3787d38ae")
+		)
+		(pin "1"
+			(uuid "6f15ffe6-0e5c-43a3-95a2-79ba5b0ff5d7")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R48")
 					(unit 1)
 				)
 			)

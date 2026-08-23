@@ -1661,6 +1661,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 68.58) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2a197c-45c4-47da-a6eb-e22f959b5f67")
+	)
+	(wire
+		(pts
 			(xy 289.56 102.87) (xy 289.56 105.41)
 		)
 		(stroke
@@ -1728,6 +1738,16 @@
 			(type default)
 		)
 		(uuid "6960db8d-6aca-41f9-a0c3-c50eab981a69")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 66.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb8216e-432f-4ec9-9ba2-ed374d9521c9")
 	)
 	(wire
 		(pts
@@ -2565,6 +2585,81 @@
 			(project "sensors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29e0b1e0-c497-4a88-ba16-755ec3a40542")
+		(property "Reference" "#PWR099"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 66.4083 64.2556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 66.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3c03e0e-7133-442d-8004-b3bc6b8fd3db")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3434,6 +3529,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9155cbe4-0b00-4beb-aba4-f17f60f72505")
+		(property "Reference" "#PWR0100"
+			(at 66.04 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.1543 160.5344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "544131ea-c80a-43ee-ae91-e727e7c6f878")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 68.58 0)
 		(unit 1)
@@ -3698,6 +3868,109 @@
 			(project "sensors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a943c067-1701-4cba-8252-aa3a61b1a946")
+		(property "Reference" "C19"
+			(at 58.166 118.872 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF (105) 10% 50V"
+			(at 60.706 118.872 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL10A105KB8NNNC"
+			(at 66.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 66.04 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "09df465b-e418-4d7a-bb5f-7d7831ae8393")
+		)
+		(pin "1"
+			(uuid "2d2b6c56-e9f9-4c4f-8826-bff12b647036")
+		)
+		(instances
+			(project "sensors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/243469ce-cfff-4f38-a791-94cacfa4b28b"
+					(reference "C19")
 					(unit 1)
 				)
 			)

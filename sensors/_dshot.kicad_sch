@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "4b7afe4c-d892-437b-901f-1750e781fbe1")
 	(paper "A4")
+	(title_block
+		(date "${CURRENT_DATE}")
+	)
 	(lib_symbols
 		(symbol "74xx:74HCT595"
 			(exclude_from_sim no)

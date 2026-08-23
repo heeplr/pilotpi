@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(date "15 nov 2012")
+		(date "${CURRENT_DATE}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -28034,6 +28034,18 @@
 				(thickness 0.254)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "${CURRENT_DATE}"
+		(at 106.75 98.95 0)
+		(layer "B.SilkS")
+		(uuid "c03012db-dc9c-4faf-be2d-d59b62249f35")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

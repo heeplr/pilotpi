@@ -2329,6 +2329,17 @@
 				)
 			)
 		)
+		(property "Part" "SP3485EN-L/TR"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7183edee-57bc-4450-9152-859ed04aa807")
 		)
@@ -2487,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.81 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -2520,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "0603WAF1500T5E"
 			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2613,7 +2624,7 @@
 				)
 			)
 		)
-		(property "Part" ""
+		(property "Part" "0402WGF1200TCE"
 			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2696,6 +2707,17 @@
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
 			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "PSM712-LF-T7"
+			(at 189.23 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

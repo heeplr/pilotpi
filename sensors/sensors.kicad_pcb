@@ -9886,7 +9886,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF 5%"
+		(property "Value" "12pF 5%"
 			(at -1.016283 2.184433 90)
 			(layer "F.Fab")
 			(uuid "3bf7ccd1-45ba-423f-872a-74d0518c5ede")
@@ -9921,7 +9921,7 @@
 				)
 			)
 		)
-		(property "Part" "0402CG220J500NT"
+		(property "Part" "0402CG120J500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12428,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF 5%"
+		(property "Value" "12pF 5%"
 			(at -1.203717 1.215567 90)
 			(layer "F.Fab")
 			(uuid "fba17ff7-d3f4-46ef-81aa-c4e68087684c")
@@ -12463,7 +12463,7 @@
 				)
 			)
 		)
-		(property "Part" "0402CG220J500NT"
+		(property "Part" "0402CG120J500NT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "52c97faf-2d80-48a8-8624-ebacd6de1cf0")
 	(paper "A4")
+	(title_block
+		(date "${CURRENT_DATE}")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1733,98 +1736,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60021d58-f4e9-4380-b0fe-74010e763df0")
-		(property "Reference" "C7"
-			(at 191.262 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF (105) 10% 25V"
-			(at 194.056 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 200.3552 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ebe070de-054e-4611-88a7-66cf7657cb91")
-		)
-		(pin "1"
-			(uuid "dcacbb46-f6c4-487d-b7eb-1f916302d3b6")
-		)
-		(instances
-			(project "power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98471493-5d46-4783-887d-a469b81088aa"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 247.65 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -1845,7 +1756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF (105) 10% 25V"
+		(property "Value" "1uF (105) 10% 50V"
 			(at 242.316 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 248.6152 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1889,7 +1800,7 @@
 				)
 			)
 		)
-		(property "Part" "CL05A105KA5NQNC"
+		(property "Part" "CL10A105KB8NNNC"
 			(at 247.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2483,6 +2394,98 @@
 			(project "power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98471493-5d46-4783-887d-a469b81088aa"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3e83ba4-f278-41fb-9d43-6c28dc2747f9")
+		(property "Reference" "C7"
+			(at 191.516 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF (105) 10% 50V"
+			(at 194.056 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.3552 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL10A105KB8NNNC"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2303b9f-a826-4a73-b2e8-f9ffb3c87fcc")
+		)
+		(pin "1"
+			(uuid "f6565840-6d3d-4b81-8c1b-5b93d2b544ac")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98471493-5d46-4783-887d-a469b81088aa"
+					(reference "C7")
 					(unit 1)
 				)
 			)

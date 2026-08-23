@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Voltage divider")
+		(date "${CURRENT_DATE}")
 		(comment 1 "divide supply voltage for use as ADC input")
 	)
 	(lib_symbols

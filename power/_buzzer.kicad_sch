@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PilotPi: Power")
-		(date "15 nov 2012")
+		(date "${CURRENT_DATE}")
 		(rev "4")
 		(comment 1 "active buzzer with PWM input")
 	)

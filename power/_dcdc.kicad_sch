@@ -1962,7 +1962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "73.2KΩ (1001) ±1%"
+		(property "Value" "75KΩ (1001) ±1%"
 			(at 218.44 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +1973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.122 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -2006,7 +2006,18 @@
 				)
 			)
 		)
-		(property "Part" "RT0402BRD0773K2L"
+		(property "Part" "0603WAF7502T5E"
+			(at 215.9 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 215.9 107.95 0)
 			(hide yes)
 			(show_name no)

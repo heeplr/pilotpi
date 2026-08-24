@@ -10,6 +10,7 @@
 	(title_block
 		(title "PilotPI power board")
 		(date "${CURRENT_DATE}")
+		(rev "5")
 		(comment 1 "Breaks out PWM pins since it's topmost board")
 		(comment 2 "3-6S 5V supply, ADC VREF, voltage divider")
 	)
@@ -17479,7 +17480,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "rc5"
+	(gr_text "rc${REVISION}"
 		(at 170.93 99.26 0)
 		(layer "F.SilkS")
 		(uuid "97352bd4-e6b4-4b7a-9748-b2a24d6184b0")

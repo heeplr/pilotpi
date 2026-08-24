@@ -7,7 +7,7 @@
 	(title_block
 		(title "PilotPi: Power")
 		(date "${CURRENT_DATE}")
-		(rev "4")
+		(rev "5")
 		(comment 1 "active buzzer with PWM input")
 	)
 	(lib_symbols

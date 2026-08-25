@@ -5258,8 +5258,20 @@
 		(uuid "8a23fdcb-5096-4d87-965e-fd3c0b70375a")
 	)
 	(no_connect
+		(at 60.96 49.53)
+		(uuid "8d817f22-3191-40be-84ac-6940a68697af")
+	)
+	(no_connect
+		(at 73.66 44.45)
+		(uuid "8e8a6591-d79b-4220-9b62-0e61b6b33f57")
+	)
+	(no_connect
 		(at 73.66 49.53)
 		(uuid "99199f31-4106-49ec-945f-bbe880dea5d4")
+	)
+	(no_connect
+		(at 73.66 46.99)
+		(uuid "9de3d32f-05c2-4067-9c47-a5408cc6060e")
 	)
 	(no_connect
 		(at 60.96 77.47)
@@ -10267,7 +10279,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

@@ -8706,7 +8706,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000059ad464a")
 		(property "Reference" "J1"
 			(at 67.31 31.3498 0)
@@ -9135,7 +9135,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268e37f8-6f19-4e83-a9be-5a7f5aced6a3")
 		(property "Reference" "J8"
@@ -9451,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Part" "2541WV-2X01P"
+		(property "Part" ""
 			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10057,7 +10057,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e37cb01-c161-4f3b-80b5-d3e2f5aded3c")
 		(property "Reference" "J2"
@@ -10697,7 +10697,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(uuid "9e4d3b2d-58d9-4c34-8772-92f410a97473")
 		(property "Reference" "J5"
 			(at 133.096 27.94 0)
@@ -11113,7 +11113,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ca4fba63-ba62-4388-b13e-3c7483df3c6d")
 		(property "Reference" "J18"
 			(at 348.996 90.932 0)
@@ -11201,7 +11201,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(uuid "cc56e76d-7d93-4bb9-9692-23b05a0df11e")
 		(property "Reference" "J3"
 			(at 346.71 46.9899 0)
@@ -11425,7 +11425,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de2e1e50-ba00-41b5-8e7d-c1f20e1895be")
 		(property "Reference" "J4"
@@ -11638,7 +11638,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e78080a7-37cf-4b1c-90e9-76774443c390")
 		(property "Reference" "J9"
 			(at 349.504 82.042 0)

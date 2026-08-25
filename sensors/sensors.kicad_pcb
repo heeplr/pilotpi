@@ -2281,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Part" "2541WV-3X01P"
+		(property "Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4504,7 +4504,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole exclude_from_pos_files dnp)
+		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -10087,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Part" "2541WV-3X01P"
+		(property "Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13355,7 +13355,7 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_pos_files dnp)
+		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -16448,7 +16448,7 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_pos_files dnp)
+		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 12.69 18.21)
@@ -25597,7 +25597,7 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_pos_files dnp)
+		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.87 1.33)
@@ -26317,7 +26317,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26447,7 +26447,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26577,7 +26577,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26707,7 +26707,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26837,7 +26837,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26967,7 +26967,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -27097,7 +27097,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -27227,7 +27227,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)

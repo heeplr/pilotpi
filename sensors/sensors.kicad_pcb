@@ -8,7 +8,9 @@
 	)
 	(paper "A5")
 	(title_block
+		(title "PilotPi: Sensors")
 		(date "${CURRENT_DATE}")
+		(rev "5")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -28062,7 +28064,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "rc5"
+	(gr_text "rc${REVISION}"
 		(at 168.202873 99.564854 0)
 		(layer "F.SilkS")
 		(uuid "e8215cc9-976f-46d7-b0ab-36178fce3eef")

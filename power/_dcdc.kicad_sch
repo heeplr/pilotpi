@@ -2162,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060612"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6045S"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2195,7 +2195,7 @@
 				)
 			)
 		)
-		(property "Part" "MHCC12050-3R3M-R7"
+		(property "Part" "MHCI06040-3R3M-R8"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)

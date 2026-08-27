@@ -1861,7 +1861,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "393578e1-a4dc-437a-aaa1-d9fae4d7dcbb")
 		(property "Reference" "JP_I2C_PWR_6"
@@ -2046,7 +2046,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "415430fc-19cb-4438-8eee-2a5c17e5725f")
 		(property "Reference" "JP_I2C_PWR_5"
@@ -2141,7 +2141,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "42a234e6-7f89-4c96-bd26-842497e57bd5")
 		(property "Reference" "JP_I2C_PWR_3"
@@ -2620,7 +2620,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d56c3b8c-a7c4-458e-a2b5-7ec07a33666b")
 		(property "Reference" "JP_I2C_PWR_4"

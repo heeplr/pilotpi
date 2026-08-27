@@ -2940,7 +2940,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9937a8ec-fd12-4989-ba72-8c528114674a")
 		(property "Reference" "NT4"
@@ -3842,7 +3842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 244.8052 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3935,7 +3935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 252.4252 109.22 0)
 			(hide yes)
 			(show_name no)

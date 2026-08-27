@@ -2628,7 +2628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF (334) 10% 50V"
+		(property "Value" "220nF 10% 50V"
 			(at 48.006 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor (was 330nF)"
 			(at 53.34 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2672,7 +2672,7 @@
 				)
 			)
 		)
-		(property "Part" "NL0805B334K500CPBN"
+		(property "Part" "CL21B224KBFNNNE"
 			(at 53.34 105.41 0)
 			(hide yes)
 			(show_name no)

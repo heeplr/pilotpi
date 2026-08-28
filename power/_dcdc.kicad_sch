@@ -2162,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6045S"
+		(property "Footprint" "pilotpi:L_6.6x7.5_H4"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)

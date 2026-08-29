@@ -1156,7 +1156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SPL06-001"
+		(property "Value" "SPA06-003"
 			(at 149.86 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1178,7 +1178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442257579782144"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Description" "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+		(property "Description" "-40℃~+85℃ 0.95mm 1.7V~3.6V 1.7uA 2.5mm 2mm SPI、I2C LGA-8(2x2.5) Pressure Sensors ROHS"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1200,7 +1200,7 @@
 				)
 			)
 		)
-		(property "Part" "SPL06-001"
+		(property "Part" "SPA06-003"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)

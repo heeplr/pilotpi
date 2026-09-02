@@ -1,0 +1,17 @@
+{
+  "jobs": [],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "61fba6b7-a34c-4b61-a559-273b6c99c91c",
+      "only": [],
+      "settings": {
+        "output_path": "power"
+      },
+      "type": "folder"
+    }
+  ]
+}

@@ -1249,7 +1249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-09)IST8310%20Datasheet%20v1.2_brief-105.09.20.pdf"
+		(property "Datasheet" "https://www.isentek.com/api/download?url=https%3A%2F%2Fassets.isentek.com%2Fpublic%2Fdocuments%2Fdatasheet%2FHFH0n8I7hQ-IST8310_Datasheet_V1.8_Web.pdf&filename=IST8310_Datasheet_V1.8_Web.pdf"
 			(at 146.05 92.71 0)
 			(hide yes)
 			(show_name no)

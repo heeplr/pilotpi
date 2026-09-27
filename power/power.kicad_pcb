@@ -5759,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Value" "169kΩ / 1%"
+		(property "Value" "17.8kΩ / 1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5793,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Part" "0603WAF1693T5E"
+		(property "Part" "PTFR0402B17K8N9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8718,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Value" "36.1kΩ / 1%"
+		(property "Value" "3.09kΩ / 1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8752,7 +8752,7 @@
 				)
 			)
 		)
-		(property "Part" "RT0603BRD0736K1L"
+		(property "Part" "FRC0603F3091TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

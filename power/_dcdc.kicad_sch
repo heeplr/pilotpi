@@ -1782,7 +1782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "36.1kΩ / 1%"
+		(property "Value" "3.09kΩ / 1%"
 			(at 85.598 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1826,7 +1826,7 @@
 				)
 			)
 		)
-		(property "Part" "RT0603BRD0736K1L"
+		(property "Part" "FRC0603F3091TS"
 			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2330,7 +2330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "169kΩ / 1%"
+		(property "Value" "17.8kΩ / 1%"
 			(at 86.36 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Part" "0603WAF1693T5E"
+		(property "Part" "PTFR0402B17K8N9"
 			(at 88.9 78.74 0)
 			(hide yes)
 			(show_name no)

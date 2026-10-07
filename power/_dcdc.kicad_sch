@@ -1079,7 +1079,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Input voltage range:	24V nominal, 5.5V to 28V\nOutput voltage:			5V\nTransient response, 10A load step ΔVOUT = ±5%\nOutput ripple voltage < 50mV at CCM\nOutput current rating 10A\nOperating frequency 500kHz"
+	(text "UVLO"
+		(exclude_from_sim no)
+		(at 85.852 49.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "444174cb-42ed-4881-9809-bcad25933386")
+	)
+	(text "(under voltage lockout) to prevent reverse currents that cause \nbrown out on the Pi when disconnecting the battery.\nV_start    = 7.96V\nV_stop     = 7.16V\nHysteresis = 0.797V"
+		(exclude_from_sim no)
+		(at 85.598 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f330ad1c-a89c-4f10-9ba6-b12ab6363e7b")
+	)
+	(text "Input voltage range:	24V nominal, 8V to 28V\nOutput voltage:			5.1V\nTransient response, 10A load step ΔVOUT = ±5%\nOutput ripple voltage < 50mV at CCM\nOutput current rating 10A\nOperating frequency 500kHz"
 		(exclude_from_sim no)
 		(at 178.308 174.244 0)
 		(effects

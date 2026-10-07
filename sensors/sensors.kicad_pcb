@@ -15567,6 +15567,7 @@
 		(property "Reference" "U12"
 			(at 0 -2.7 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "39de4658-96a3-400a-9728-11ccde8cc90f")
 			(effects
 				(font
@@ -28079,6 +28080,18 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "PilotPi"
+		(at 101.81 99.16 0)
+		(layer "F.SilkS")
+		(uuid "ff7235a4-b660-44b2-bc26-c3f7765d2339")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.254)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "rc${REVISION}"

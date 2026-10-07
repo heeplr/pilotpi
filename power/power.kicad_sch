@@ -4868,7 +4868,7 @@
 		(uuid "0053d1c2-c336-4b72-b802-a4a6738fde9d")
 	)
 	(junction
-		(at 356.87 93.98)
+		(at 356.87 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01f8434f-36ca-4b49-9419-9a487f83c10a")
@@ -6043,6 +6043,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 88.9) (xy 356.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45087e6d-65cb-45af-afa1-47df7f29068e")
+	)
+	(wire
+		(pts
 			(xy 386.08 161.29) (xy 388.62 161.29)
 		)
 		(stroke
@@ -6063,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 93.98) (xy 354.33 93.98)
+			(xy 356.87 106.68) (xy 354.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 85.09) (xy 356.87 85.09)
+			(xy 354.33 97.79) (xy 356.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7253,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 85.09) (xy 356.87 93.98)
+			(xy 356.87 97.79) (xy 356.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7433,6 +7443,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 88.9) (xy 356.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1126204-3ae0-4084-8f3a-784a59380c4c")
+	)
+	(wire
+		(pts
 			(xy 386.08 130.81) (xy 386.08 133.35)
 		)
 		(stroke
@@ -7543,7 +7563,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 93.98) (xy 367.03 93.98)
+			(xy 356.87 106.68) (xy 367.03 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8142,7 +8162,7 @@
 		(uuid "85fe1007-95f0-4d98-a6d5-65a2c44945df")
 	)
 	(label "VCC_PWM"
-		(at 367.03 93.98 0)
+		(at 367.03 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10110,6 +10130,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 349.25 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "57f2ba8e-0c9f-4214-bb23-d1a683eef6c2")
+		(property "Reference" "J20"
+			(at 348.996 85.852 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JP_VCC_PWM"
+			(at 344.678 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 349.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 349.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 349.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaeb2388-81d4-4e0a-96cb-056e2e424c7e")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 303.53 67.31 0)
 		(unit 1)
@@ -10179,6 +10286,81 @@
 			(project "power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 356.87 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b9f3b95-1969-4bf7-84e9-a11c44fda464")
+		(property "Reference" "#PWR022"
+			(at 356.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 357.2383 79.4956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 356.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b6ca2d1-6a21-43c1-8694-073721bdef47")
+		)
+		(instances
+			(project "power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11840,7 +12022,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 349.25 93.98 180)
+		(at 349.25 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11850,7 +12032,7 @@
 		(dnp no)
 		(uuid "ca4fba63-ba62-4388-b13e-3c7483df3c6d")
 		(property "Reference" "J18"
-			(at 348.996 90.932 0)
+			(at 348.996 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11860,7 +12042,7 @@
 			)
 		)
 		(property "Value" "JP_VCC_PWM"
-			(at 344.678 88.9 0)
+			(at 344.678 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11870,7 +12052,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 349.25 93.98 0)
+			(at 349.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11881,7 +12063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 93.98 0)
+			(at 349.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11892,7 +12074,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 349.25 93.98 0)
+			(at 349.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11903,7 +12085,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 349.25 93.98 0)
+			(at 349.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,7 +12547,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 349.25 85.09 180)
+		(at 349.25 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12375,7 +12557,7 @@
 		(dnp no)
 		(uuid "e78080a7-37cf-4b1c-90e9-76774443c390")
 		(property "Reference" "J9"
-			(at 349.504 82.042 0)
+			(at 349.504 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12385,7 +12567,7 @@
 			)
 		)
 		(property "Value" "JP_VCC_PWM"
-			(at 344.678 80.01 0)
+			(at 344.678 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12395,7 +12577,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 349.25 85.09 0)
+			(at 349.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12406,7 +12588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 85.09 0)
+			(at 349.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12417,7 +12599,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 349.25 85.09 0)
+			(at 349.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12610,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 349.25 85.09 0)
+			(at 349.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

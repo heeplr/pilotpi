@@ -79,6 +79,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|164291766|46567007|0beff73c-ea66-46e4-96f9-c0c7195d2160|ced35e08-0134-43fd-bdda-a4c912dd8c5c",
+          "not enough space here"
+        ],
+        [
           "courtyards_overlap|180775000|70575001|32ede51d-8205-4c63-a248-74ea9fa3b6ef|cd048a43-3c3a-463a-b5f9-445699ca60f9",
           ""
         ],
@@ -997,7 +1001,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR22,J20",
     "variants": []
   },
   "sheets": [

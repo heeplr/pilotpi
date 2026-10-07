@@ -1529,6 +1529,17 @@
 				)
 			)
 		)
+		(property "Part" "MMC5983MA"
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "acc0a74a-87f7-4991-8d3f-bc717b853cc6")
 		)

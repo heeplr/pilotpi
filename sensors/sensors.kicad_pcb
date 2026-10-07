@@ -11691,7 +11691,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "+3V3")
 			(pintype "passive")
 			(uuid "1db11a2a-2ace-4ed2-b532-be0c5bbab414")
 		)
@@ -29500,6 +29500,14 @@
 		(uuid "9e785635-9c0a-4601-8b9e-d4a38ae0e31b")
 	)
 	(segment
+		(start 127.885 95.235)
+		(end 127.9 95.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "a78dd3b2-6a8a-4d35-be53-012835dba6c8")
+	)
+	(segment
 		(start 149.566132 96.86675)
 		(end 150 96.86675)
 		(width 0.3)
@@ -29676,6 +29684,14 @@
 		(uuid "e4ee13a8-e2c6-4d88-9d6d-96e7ea8b7c5f")
 	)
 	(segment
+		(start 127.885 94.3)
+		(end 127.885 95.235)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "eafb0ef3-323f-4cc7-beab-97cb17e2f597")
+	)
+	(segment
 		(start 147.710316 58.212898)
 		(end 147.710316 58.812897)
 		(width 0.5)
@@ -29786,6 +29802,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+3V3")
 		(uuid "6630e06c-873d-498d-82f3-2b37e3ed5e67")
+	)
+	(via
+		(at 127.9 95.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "6fffa5f5-29af-4bda-91d3-79856e69ab94")
 	)
 	(via
 		(at 108.99 62.27)

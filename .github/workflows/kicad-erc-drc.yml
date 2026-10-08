@@ -34,7 +34,7 @@ jobs:
       - name: Run ERC on Power Schematic
         run: |
           cd power
-          kicad-cli sch erc power/power.kicad_sch --output erc-report.txt
+          kicad-cli sch erc power.kicad_sch --output erc-report.txt
           echo "=== Power Schematic ERC Report ==="
           cat erc-report.txt
           if ! grep -q "ERC messages: 0  Errors 0  Warnings 0" erc-report.txt; then
@@ -46,7 +46,7 @@ jobs:
       - name: Run ERC on Sensors Schematic
         run: |
           cd sensors
-          kicad-cli sch erc sensors/sensors.kicad_sch --output erc-report.txt
+          kicad-cli sch erc sensors.kicad_sch --output erc-report.txt
           echo "=== Sensors Schematic ERC Report ==="
           cat erc-report.txt
           if ! grep -q "ERC messages: 0  Errors 0  Warnings 0" erc-report.txt; then
@@ -58,7 +58,7 @@ jobs:
       - name: Run DRC on Power Board
         run: |
           cd power
-          kicad-cli pcb drc power/power.kicad_pcb --refill-zones --output drc-report.txt
+          kicad-cli pcb drc power.kicad_pcb --refill-zones --output drc-report.txt
           echo "=== Power Board DRC Report ==="
           cat drc-report.txt
           if ! grep -q "Found 0 DRC violations" drc-report.txt || \
@@ -72,7 +72,7 @@ jobs:
       - name: Run DRC on Sensors Board
         run: |
           cd sensors
-          kicad-cli pcb drc sensors/sensors.kicad_pcb --refill-zones --output drc-report.txt
+          kicad-cli pcb drc sensors.kicad_pcb --refill-zones --output drc-report.txt
           echo "=== Sensors Board DRC Report ==="
           cat drc-report.txt
           if ! grep -q "Found 0 DRC violations" drc-report.txt || \

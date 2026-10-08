@@ -4445,7 +4445,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -8755,7 +8755,7 @@
 				(pins "1" "2" "3" "4" "MP")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.235 1.86)
@@ -12864,7 +12864,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -13260,7 +13260,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "MP")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.735 2.71)
@@ -16389,7 +16389,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 12.69 18.21)
@@ -23045,7 +23045,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "MP")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.735 2.71)
@@ -25550,7 +25550,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.87 1.33)
@@ -27822,6 +27822,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "sensor"
+		(at 108.203005 98.442907 0)
+		(layer "F.SilkS")
+		(uuid "e5e7eecf-9052-4f34-acce-d477bf9f8984")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Vref"
 		(at 110.559615 87.665341 0)
 		(layer "F.SilkS")
@@ -28083,7 +28096,7 @@
 		)
 	)
 	(gr_text "PilotPi"
-		(at 101.81 99.16 0)
+		(at 101.81 99.564854 0)
 		(layer "F.SilkS")
 		(uuid "ff7235a4-b660-44b2-bc26-c3f7765d2339")
 		(effects

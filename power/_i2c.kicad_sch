@@ -2237,7 +2237,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45eb208b-9d81-45ba-b5ba-406aa389ee1f")
 		(property "Reference" "J6"
@@ -2339,7 +2339,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53dd71aa-7751-4798-96fe-c9ba9c2115c6")
 		(property "Reference" "J7"

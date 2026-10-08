@@ -6,6 +6,7 @@
 ![XL4015](./preview/power-XL4015.svg)
 ![V-Ref](./preview/power-V-Ref.svg)
 ![V-Div](./preview/power-V-Div.svg)
+![Indicator LED](./preview/power-Indicator%20LED.svg)
 ![I2C expander](./preview/power-I2C%20expander.svg)
 ![DCDC](./preview/power-DCDC.svg)
 ![Buzzer](./preview/power-Buzzer.svg)

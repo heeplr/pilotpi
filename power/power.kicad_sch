@@ -5122,10 +5122,6 @@
 		(uuid "5d7bf777-43be-4f26-81ed-2e27c2aacc5d")
 	)
 	(no_connect
-		(at 73.66 54.61)
-		(uuid "6fa590b3-00aa-44fa-911a-c5191c1e83f1")
-	)
-	(no_connect
 		(at 60.96 80.01)
 		(uuid "77f6d232-33fd-44fb-83c7-314559fafcb8")
 	)
@@ -5152,10 +5148,6 @@
 	(no_connect
 		(at 73.66 46.99)
 		(uuid "9de3d32f-05c2-4067-9c47-a5408cc6060e")
-	)
-	(no_connect
-		(at 60.96 77.47)
-		(uuid "9f9c6d56-ae7a-489b-8592-04ec624d6cee")
 	)
 	(no_connect
 		(at 73.66 82.55)

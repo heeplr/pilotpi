@@ -22,10 +22,17 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: kicad/kicad:10.0
+      options: --user root
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Configure KiCad
+        run: |
+          mkdir -p /root/.config/kicad/10.0
+          cp /home/kicad/.config/kicad/10.0/*-lib-table \
+             /root/.config/kicad/10.0/
 
       - name: Show KiCad version
         run: kicad-cli version --format=about

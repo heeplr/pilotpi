@@ -42274,7 +42274,7 @@
 	(zone
 		(layers "F.Cu" "B.Cu")
 		(uuid "3758ba39-747f-4088-8465-189a8bf2f136")
-		(name "IMU_keepout")
+		(name "MAG_keepout")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -42283,7 +42283,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
@@ -42306,7 +42306,7 @@
 		(net "GND")
 		(layers "F.Cu" "B.Cu")
 		(uuid "8f104149-8a7b-4ff1-9e45-05979b8cd209")
-		(name "IMUGND")
+		(name "MAG_GND")
 		(hatch edge 0.5)
 		(priority 1)
 		(connect_pads yes

@@ -30,9 +30,11 @@ jobs:
 
       - name: Configure KiCad
         run: |
-          mkdir -p /root/.config/kicad/10.0
-          cp /home/kicad/.config/kicad/10.0/*-lib-table \
-             /root/.config/kicad/10.0/
+          KICAD_VERSION="$(kicad-cli version | cut -d. -f1,2)"
+          CONFIG_DIR="$HOME/.config/kicad/$KICAD_VERSION"
+
+          mkdir -p "$CONFIG_DIR"
+          cp /usr/share/kicad/template/*-lib-table "$CONFIG_DIR/"
 
       - name: Show KiCad version
         run: kicad-cli version --format=about

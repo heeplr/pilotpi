@@ -7,7 +7,12 @@
 ## KiCAD files for PilotPi - &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [![KiCAD ERC/DRC](https://github.com/heeplr/pilotpi/actions/workflows/kicad-erc-drc.yml/badge.svg)](https://github.com/heeplr/pilotpi/actions/workflows/kicad-erc-drc.yml)
 a RaspberryPi HAT for vehicle control using ardupilot based on [@SalimTerryLi/PilotPi_PCB](https://github.com/SalimTerryLi/PilotPi_PCB)
 
+<br>
 
+### [Power PCB & Schematics](/power)
+### [Sensors PCB & Schematics](/sensors)
+
+<br><br><br>
 
 ## Features
 
@@ -54,6 +59,7 @@ a RaspberryPi HAT for vehicle control using ardupilot based on [@SalimTerryLi/Pi
       - CSI connector(Note: conflict with external I2C bus)
       - ...
 
+<br><br><br>
 
 ## Changes
 

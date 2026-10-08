@@ -5102,10 +5102,6 @@
 		(uuid "fd470e95-4861-44fe-b1e4-6d8a7c66e144")
 	)
 	(no_connect
-		(at 73.66 80.01)
-		(uuid "07080cf2-1678-4ea6-be93-b31b4c8c4279")
-	)
-	(no_connect
 		(at 73.66 64.77)
 		(uuid "170d72d5-a04d-40ab-b091-68b1a1881fd9")
 	)
